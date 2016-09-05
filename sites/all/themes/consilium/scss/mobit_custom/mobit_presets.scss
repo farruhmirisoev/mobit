@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6{
+	color: $base_black;
+	font-family: calibri;
+}
+h1{
+	font-size: 3.389em;
+}
+h2{
+	font-size:2.889em;
+}
+h3{
+	font-size: 2.1em;
+}
+h4{
+	font-size: 1.333em;
+}
+h5{
+	font-size: 1.222em;	
+}
+.block h3.block-title{
+	text-transform: none;
+	font-size:38px;
+	margin-bottom: 30px;
+}
+
+ul{
+	padding-left: 0;	
+}
+
+a:not(.btn){
+	&.active{
+		color: $base_blue;
+	}
+	&:hover, &.active-block{
+		color: $order_btn;
+	}
+}
+.mobit_btn{
+	&__green{
+		@include mobit_btn();
+	}
+}
