@@ -46,7 +46,7 @@
   clear: both;
 }
 .btn, .button, button {
-  border: 2px solid #113a52;
+  border: 2px solid #efbb8e;
   padding: 4px 14px;
   display: inline-block;
   /* IE7 inline-block hack */
@@ -225,49 +225,49 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   *padding-bottom: 1px;
 }
 .btn-link {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
   text-shadow: none;
   border: none;
-  border-bottom: 4px solid #00aa9e;
+  border-bottom: 4px solid #ecae78;
 }
 .btn-link:hover, .btn-link:focus, .btn-link:active {
-  background: #00aa9e !important;
+  background: #ecae78 !important;
   border: none;
-  border-bottom: 4px solid #00aa9e;
+  border-bottom: 4px solid #ecae78;
   color: #fff !important;
 }
 .btn-default {
-  background: #113a52;
+  background: #efbb8e;
   color: #fff !important;
   text-shadow: none;
   border: none;
-  border-bottom: 4px solid #0d2b3d !important;
+  border-bottom: 4px solid #ecae78 !important;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active {
-  background: #0d2b3d !important;
+  background: #ecae78 !important;
   border: none;
-  border-bottom: 4px solid #0d2b3d;
+  border-bottom: 4px solid #ecae78;
   color: #fff !important;
 }
 .btn-primary, .button, button {
   background: none;
   padding: 4px 14px 2px;
-  color: #113a52;
+  color: #efbb8e;
   text-shadow: none;
 }
 .btn-primary:hover, .button:hover, button:hover, .btn-primary:focus, .button:focus, button:focus, .btn-primary:active, .button:active, button:active {
-  background: rgba(17, 58, 82, 0.2) !important;
-  color: #113a52;
+  background: rgba(239, 187, 142, 0.2) !important;
+  color: #efbb8e;
 }
 .btn-primary.btn-link, .button.btn-link, button.btn-link {
-  border: 2px solid #00c3b6;
-  color: #00c3b6;
+  border: 2px solid #efbb8e;
+  color: #efbb8e;
   background: none;
 }
 .btn-primary.btn-link:hover, .button.btn-link:hover, button.btn-link:hover {
-  background: rgba(0, 195, 182, 0.3) !important;
-  color: #00c3b6 !important;
+  background: rgba(239, 187, 142, 0.3) !important;
+  color: #efbb8e !important;
 }
 .btn-trans {
   background: none !important;
@@ -279,7 +279,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   background: #fff;
 }
 .btn-white:hover {
-  background: #113a52 !important;
+  background: #efbb8e !important;
 }
 .block {
   margin-top: 20px;
@@ -297,7 +297,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 .block.title-line h3.block-title {
   border-bottom: 1px solid #ddd;
-  color: #113a52;
+  color: #efbb8e;
   font-size: 18px;
   font-family: open_sansregular;
 }
@@ -305,11 +305,11 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   display: inline-block;
   line-height: 1;
   margin-bottom: -1px;
-  border-bottom: 1px solid #00c3b6;
+  border-bottom: 1px solid #efbb8e;
   padding: 0 10px 10px 0;
 }
 .block.title-line a.bx-prev, .block.title-line a.bx-next {
-  color: #113a52;
+  color: #efbb8e;
 }
 .view-superhero-portfolio #filters {
   margin-bottom: 20px;
@@ -345,7 +345,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   text-transform: capitalize;
 }
 .view-superhero-portfolio #filters li a.active, .view-superhero-portfolio #filters li a:hover {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
 }
 .portfolio-item {
@@ -359,7 +359,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   top: 100%;
   left: 0;
   text-align: center;
-  background: rgba(0, 195, 182, 0.75);
+  background: rgba(239, 187, 142, 0.75);
 }
 .portfolio-caption .portfolio-readmore {
   font-size: 50px;
@@ -373,15 +373,15 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .home-portfolio .view-superhero-portfolio ul#filters li a {
   background: #fff;
   border: 1px solid #fff;
-  color: #00c3b6;
+  color: #efbb8e;
   font-size: 17px;
   padding: 2px 18px;
   text-transform: uppercase;
 }
 .home-portfolio .view-superhero-portfolio #filters li a.active, .home-portfolio .view-superhero-portfolio #filters li a:hover {
   background: #fff;
-  color: #00c3b6;
-  box-shadow: 0 0 2px 2px #00c3b6 inset;
+  color: #efbb8e;
+  box-shadow: 0 0 2px 2px #efbb8e inset;
 }
 .view-testimonial .bx-wrapper {
   margin: 0 auto 0;
@@ -389,7 +389,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 .view-testimonial .bx-wrapper .views-field-body {
   padding-bottom: 15px;
-  background: url(http://mobit.t/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
+  background: url(http://consilium.t/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
 }
 .view-testimonial .bx-wrapper .views-field-body .field-content {
   background: rgba(238, 238, 238, 0.8);
@@ -496,7 +496,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   transition: all 225ms cubic-bezier(0.5, -0.7, 0.67, 0.7);
 }
 .view-team .slide-item-image:hover .circle-border {
-  border-color: #00c3b6;
+  border-color: #efbb8e;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -504,7 +504,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   transform: scale(1.1);
 }
 .view-team .slide-item-desc-warp .field-name-field-job-title {
-  color: #113a52;
+  color: #efbb8e;
   font-size: 12px;
   text-transform: capitalize;
   padding-top: 5px;
@@ -524,10 +524,10 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   margin-left: 10px;
 }
 .view-team .slide-item-desc-warp .user-social .field-item a:hover {
-  color: #113a52;
+  color: #efbb8e;
 }
 .view-team .slide-item-desc-warp .user-social .field-item a:hover:before {
-  color: #113a52;
+  color: #efbb8e;
 }
 .sp-twitter .sp-tweet {
   text-align: center;
@@ -582,7 +582,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   clear: both;
 }
 .consilium-team-detail .field-label {
-  color: #113a52;
+  color: #efbb8e;
   font-weight: normal;
   font-family: 'open_sansbold';
 }
@@ -592,13 +592,13 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   font-size: 20px;
 }
 .consilium-team-detail .user-social .field-item a:not(.btn) {
-  color: #113a52;
+  color: #efbb8e;
 }
 .consilium-team-detail .user-social .field-item a:not(.btn):hover {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 .consilium-portfolio-detail .field-label {
-  color: #113a52;
+  color: #efbb8e;
   font-weight: normal;
   font-family: 'open_sansbold';
 }
@@ -633,11 +633,11 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
   text-transform: capitalize;
 }
 .gallery-filters a.active {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
 }
 .gallery-filters a:hover {
-  background: #113a52;
+  background: #efbb8e;
   color: #fff;
 }
 .sh-dropcap {
@@ -831,7 +831,7 @@ img.pull-right, .pull-right > img {
   z-index: 10;
 }
 .panel-group .panel h4.panel-title a {
-  color: #00c3b6;
+  color: #efbb8e;
   display: block;
   letter-spacing: 0;
   line-height: 14px !important;
@@ -894,7 +894,7 @@ img.pull-right, .pull-right > img {
   border-left: 1px solid #dedede;
 }
 .nav.nav-tabs a {
-  color: #113a52;
+  color: #efbb8e;
   border: none;
   border-bottom: 3px solid #eee;
   font-weight: normal;
@@ -906,19 +906,19 @@ img.pull-right, .pull-right > img {
 }
 .nav.nav-tabs a:hover {
   background: none;
-  color: #00c3b6 !important;
-  border-bottom: 3px solid #00c3b6;
+  color: #efbb8e !important;
+  border-bottom: 3px solid #efbb8e;
   outline: none;
 }
 .nav.nav-tabs > .active > a {
   border: none;
-  border-bottom: 3px solid #00c3b6;
-  color: #113a52;
+  border-bottom: 3px solid #efbb8e;
+  color: #efbb8e;
 }
 .nav.nav-tabs > .active > a:hover, .nav.nav-tabs > .active > a:focus, .nav.nav-tabs > .active > a:active {
   border: none !important;
-  border-bottom: 3px solid #00c3b6;
-  color: #00c3b6 !important;
+  border-bottom: 3px solid #efbb8e;
+  color: #efbb8e !important;
 }
 .nav.nav-pills {
   margin-bottom: 15px;
@@ -928,12 +928,12 @@ img.pull-right, .pull-right > img {
   float: none;
 }
 .nav.nav-pills a:hover {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
   outline: none;
 }
 .nav.nav-pills .active > a {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
   outline: none;
 }
@@ -941,7 +941,7 @@ img.pull-right, .pull-right > img {
   margin-bottom: 5px;
 }
 .sh_title_wrap .sh_skill_title {
-  color: #113a52;
+  color: #efbb8e;
   text-transform: uppercase;
   font-weight: normal;
   font-family: 'open_sansbold';
@@ -962,13 +962,13 @@ img.pull-right, .pull-right > img {
   width: 100%;
 }
 .sh_skill_progress_wrap .sh_skills_progress_percent {
-  background: #00c3b6;
+  background: #efbb8e;
   border-radius: 3px;
   display: block;
   height: 15px;
 }
 #spaccordion .panel-heading {
-  background: #00c3b6;
+  background: #efbb8e;
   color: #fff;
   border: none;
 }
@@ -993,7 +993,7 @@ img.pull-right, .pull-right > img {
     position: relative;
   }
   .superhero-dropdown > ul > li:hover a {
-    color: #00c3b6;
+    color: #efbb8e;
   }
   .superhero-dropdown > ul > li > a {
     display: inline-block;
@@ -1004,10 +1004,10 @@ img.pull-right, .pull-right > img {
     text-transform: uppercase;
   }
   .superhero-dropdown > ul > li > a:not(.btn) {
-    color: #113a52;
+    color: #efbb8e;
   }
   .superhero-dropdown > ul > li > a:hover, .superhero-dropdown > ul > li > a.active {
-    color: #00c3b6 !important;
+    color: #efbb8e !important;
   }
   .superhero-dropdown > ul ul {
     background: #fff;
@@ -1042,7 +1042,7 @@ img.pull-right, .pull-right > img {
     border-bottom: 2px solid rgba(0, 0, 0, 0);
   }
   .header-overlay .sticky-wrapper #section-header .superhero-dropdown > ul > li > a:hover, .header-overlay .sticky-wrapper #section-header .superhero-dropdown > ul > li > a.active {
-    color: #00c3b6;
+    color: #efbb8e;
   }
   .header-overlay .sticky-wrapper #section-header .superhero-dropdown > ul > li > a:hover {
     border-bottom: 2px solid #fff;
@@ -1057,7 +1057,7 @@ img.pull-right, .pull-right > img {
     position: absolute;
     right: 20px;
     border-bottom: 4px solid #081c28;
-    background: #113a52;
+    background: #efbb8e;
     color: #fff !important;
     top: -63px;
     -webkit-border-radius: 5px;
@@ -1077,7 +1077,7 @@ img.pull-right, .pull-right > img {
     border-top: 1px solid #eee;
   }
   .superhero-dropdown ul li {
-    background: #113a52;
+    background: #efbb8e;
     padding: 0 10px;
   }
   .superhero-dropdown ul li a {
@@ -1157,7 +1157,7 @@ img.pull-right, .pull-right > img {
   transition: all 400ms;
   font-size: 18px;
   margin: -40px 0 0 -40px;
-  background: #113a52;
+  background: #efbb8e;
   color: #fff;
 }
 .sh-blog .blog-image .image-overlay .image-overlay-inside {
@@ -1214,75 +1214,75 @@ ul.pagination li a:not(.btn) {
   padding: 3px 10px;
 }
 ul.pagination li.active a {
-  background: #113a52;
+  background: #efbb8e;
   color: #fff;
-  border: 1px solid #113a52;
+  border: 1px solid #efbb8e;
 }
 ul.pagination li.active a:hover, ul.pagination li.active a:focus {
-  background: #113a52 !important;
+  background: #efbb8e !important;
 }
 @font-face {
   font-family: NovecentowideUltraLightBold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
 }
 @font-face {
   font-family: NovecentowideNormalRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideLightRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideBookRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 @font-face {
   font-family: open_sansbold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
 }
 @font-face {
   font-family: open_sanslight;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
 }
 @font-face {
   font-family: open_sanssemibold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://consilium.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 .center {
   text-align: center;
@@ -1330,7 +1330,7 @@ ul.pagination li.active a:hover, ul.pagination li.active a:focus {
   text-align: left !important;
 }
 body {
-  color: #888;
+  color: #999;
   font-size: 13px;
   font-family: 'open_sansregular';
   line-height: 1.6em;
@@ -1342,7 +1342,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: open_sanslight;
-  color: #00c3b6;
+  color: #666;
   font-weight: normal;
   line-height: 1.2em;
 }
@@ -1379,10 +1379,10 @@ img {
   height: auto;
 }
 a:not(.btn) {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 a:not(.btn):hover {
-  color: #113a52;
+  color: #e28535;
 }
 .icontop .content {
   position: relative;
@@ -1404,7 +1404,7 @@ a:not(.btn):hover {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #113a52;
+  background: #efbb8e;
 }
 .icontop [class^="icon-"]:after, .icontop [class^="fa-"]:after, .icontop [class*="icon-"]:after, .icontop [class*="fa-"]:after {
   content: "";
@@ -1442,7 +1442,7 @@ a:not(.btn):hover {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  background: #113a52;
+  background: #efbb8e;
 }
 .icontop:hover [class^="icon-"]:after, .icontop:active [class^="icon-"]:after, .icontop:focus [class^="icon-"]:after, .icontop:hover [class^="fa-"]:after, .icontop:active [class^="fa-"]:after, .icontop:focus [class^="fa-"]:after, .icontop:hover [class*="icon-"]:after, .icontop:active [class*="icon-"]:after, .icontop:focus [class*="icon-"]:after, .icontop:hover [class*="fa-"]:after, .icontop:active [class*="fa-"]:after, .icontop:focus [class*="fa-"]:after {
   opacity: 1;
@@ -1454,25 +1454,25 @@ a:not(.btn):hover {
   transform: scale(1);
   top: -1px;
   left: -1px;
-  background: #00c3b6;
+  background: #efbb8e;
 }
 .slide-item-readmore a:not(.btn) {
   font-family: 'open_sansbold';
   font-size: 13px;
   text-transform: capitalize;
-  color: #113a52;
+  color: #efbb8e;
 }
 .slide-item-readmore a:not(.btn):hover, .slide-item-readmore a:not(.btn):focus {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 a:not(.btn).read-more, a:not(.btn).readmore {
   font-family: 'open_sansbold';
   font-size: 13px;
   text-transform: capitalize;
-  color: #113a52;
+  color: #efbb8e;
 }
 a:not(.btn).read-more:hover, a:not(.btn).readmore:hover, a:not(.btn).read-more:focus, a:not(.btn).readmore:focus {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 form input[type="text"], form input[type="password"], form input[type="datetime"], form input[type="datetime-local"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="week"], form input[type="number"], form input[type="email"], form input[type="url"], form input[type="search"], form input[type="tel"], form input[type="color"] {
   background: #fcfcfc;
@@ -1534,7 +1534,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 .social-icon ul li i:hover {
-  color: #113a52;
+  color: #efbb8e;
 }
 .block-contact .clearfix {
   margin-bottom: 20px;
@@ -1589,13 +1589,13 @@ label {
   background: none !important;
 }
 .header-overlay .sticky-wrapper #section-header > .container {
-  background: url(http://mobit.t/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
+  background: url(http://consilium.t/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
 }
 #section-banner {
   clear: both;
 }
 .md-arrow-left {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
+  background: #fff url(http://consilium.t/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
   left: 0 !important;
   width: 60px;
   height: 60px;
@@ -1609,7 +1609,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 .md-arrow-right {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
+  background: #fff url(http://consilium.t/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
   right: 0 !important;
   width: 60px;
   height: 60px;
@@ -1623,7 +1623,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 #section-pagetitle {
-  background: #113a52;
+  background: #efbb8e;
 }
 #section-pagetitle .page_title {
   color: #fff;
@@ -1642,13 +1642,13 @@ label {
   margin-top: 45px;
 }
 #section-users .block a {
-  color: #113a52;
+  color: #efbb8e;
 }
 #section-users .block a:hover {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 #section-feature {
-  background: #00c3b6;
+  background: #efbb8e;
   padding: 20px 0;
   line-height: normal;
 }
@@ -1665,7 +1665,7 @@ label {
   padding: 30px 0 50px;
 }
 .home-portfolio #section-news1 {
-  background: #113a52;
+  background: #efbb8e;
 }
 .home-portfolio #section-news1 h3.block-title {
   font-family: 'NovecentowideBookRegular';
@@ -1689,7 +1689,7 @@ label {
 }
 .home-portfolio .webform-client-form .btn.form-submit {
   background: #fff;
-  color: #00c3b6;
+  color: #efbb8e;
   border: none !important;
   padding: 4px 14px !important;
 }
@@ -1713,7 +1713,7 @@ label {
 }
 #section-testinomial .block-contents {
   padding: 35px 0;
-  background: rgba(17, 58, 82, 0.95);
+  background: rgba(239, 187, 142, 0.95);
 }
 #section-team {
   padding: 50px 0;
@@ -1728,7 +1728,7 @@ label {
   margin-bottom: 30px;
 }
 #section-tweets {
-  background: rgba(0, 195, 182, 0.91);
+  background: rgba(239, 187, 142, 0.91);
   padding: 30px 0;
   color: #fff;
   font-family: 'open_sanssemibold';
@@ -1752,13 +1752,13 @@ label {
   padding-bottom: 10px;
 }
 #section-bottom .block .views-row .views-field-title a {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 #section-bottom .block .views-row .views-field-title a:hover {
   color: #fff;
 }
 #section-bottom a:not(.btn) {
-  color: #00c3b6;
+  color: #efbb8e;
   font-family: open_sansregular;
 }
 #section-bottom a:not(.btn):hover {
@@ -1803,7 +1803,7 @@ label {
   color: #fff;
 }
 #section-bottom .region-bottom-fourth ul li a:hover i {
-  color: #00c3b6;
+  color: #efbb8e;
 }
 #section-bottom .region-bottom-fourth #block-newsletter-newsletter-subscribe {
   float: left;
@@ -1885,21 +1885,21 @@ label {
   font-family: open_sansregular;
 }
 #section-footer ul.menu li a:hover {
-  color: #00c3b6;
+  color: #efbb8e;
   background: none;
 }
 #section-footer ul.menu li a:active, #section-footer ul.menu li a:focus {
   background: none;
 }
 .region-content h2#page-title {
-  color: #00c3b6;
+  color: #efbb8e;
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
 }
 .region-content h2#page-title:hover {
-  color: #113a52;
+  color: #e28535;
 }
 .breadcrumb .fa {
   padding: 0 5px;
@@ -2212,14 +2212,14 @@ label {
   float: left;
   width: 25%;
   padding-bottom: 20px;
-  border: 1px solid #113a52;
+  border: 1px solid #efbb8e;
   margin-right: -1px;
 }
 .jmPriceTable dl.jmPremium {
   position: relative;
   z-index: 1;
   margin-top: -20px;
-  border: 1px solid #00c3b6;
+  border: 1px solid #efbb8e;
 }
 .jmPriceTable dl.jmPremium dt small {
   display: block;
@@ -2237,14 +2237,14 @@ label {
 }
 .jmPriceTable dl.jmPremium dt {
   color: #fff;
-  border-bottom: 1px solid #00c3b6;
-  background: #00c3b6;
+  border-bottom: 1px solid #efbb8e;
+  background: #efbb8e;
   font-family: 'open_sanslight';
 }
 .jmPriceTable dt {
   color: #fff;
-  border-bottom: 1px solid #113a52;
-  background: #113a52;
+  border-bottom: 1px solid #efbb8e;
+  background: #efbb8e;
   font-size: 27px;
   font-weight: 400;
   line-height: 65px;
@@ -2256,7 +2256,7 @@ label {
   border-bottom: 1px solid #ddd;
 }
 .jmPriceTable dd.jmPrice {
-  background: #113a52;
+  background: #efbb8e;
   border-radius: 50%;
   width: 130px;
   height: 130px;
@@ -2268,7 +2268,7 @@ label {
   line-height: 1;
 }
 .jmPriceTable .jmPremium dd.jmPrice {
-  background: #00c3b6;
+  background: #efbb8e;
 }
 .jmPriceTable dd.jmPrice small {
   font-family: 'open_sanslight';
@@ -2291,288 +2291,4 @@ label {
     width: 80px;
     font-size: 20px;
   }
-}
-h1, h2, h3, h4, h5, h6 {
-  color: #050505;
-  font-family: calibri;
-}
-h1 {
-  font-size: 3.389em;
-}
-h2 {
-  font-size: 2.889em;
-}
-h3 {
-  font-size: 2.1em;
-}
-h4 {
-  font-size: 1.333em;
-}
-h5 {
-  font-size: 1.222em;
-}
-.block h3.block-title {
-  text-transform: none;
-  font-size: 38px;
-  margin-bottom: 30px;
-}
-ul {
-  padding-left: 0;
-}
-a:not(.btn).active {
-  color: #0072c6;
-}
-a:not(.btn):hover, a:not(.btn).active-block {
-  color: #13ce8f;
-}
-.mobit_btn__green {
-  display: inline-block;
-  font-size: 20px;
-  padding: 0.7em 2.8em;
-  background-color: #13ce8f;
-  color: #fff !important;
-  border-radius: 2em;
-  border: none;
-  font-weight: bold;
-  text-decoration: none;
-  outline: none;
-}
-.mobit_btn__green:hover {
-  background: #0f9f6f !important;
-}
-.mobit_btn__green:active {
-  background: #10b27c;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-form input[type="text"], form input[type="password"], form input[type="datetime"], form input[type="datetime-local"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="week"], form input[type="number"], form input[type="email"], form input[type="url"], form input[type="search"], form input[type="tel"], form input[type="color"] {
-  border-radius: 3px;
-  height: 37px;
-  line-height: 37px;
-  border: 1px solid #13ce8f;
-  font-family: calibri;
-  color: #050505;
-}
-.button, button {
-  display: inline-block;
-  font-size: 20px;
-  padding: 0.7em 2.8em;
-  background-color: #0072c6;
-  color: #fff !important;
-  border-radius: 2em;
-  border: none;
-  font-weight: bold;
-  text-decoration: none;
-  outline: none;
-  line-height: initial;
-  font-family: calibri;
-}
-.button:hover, button:hover {
-  background: #005593 !important;
-}
-.button:active, button:active {
-  background: #0060a7;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-body {
-  font-family: calibri, open_sanslight;
-  color: #050505;
-  font-size: 18px;
-}
-.region-menu {
-  clear: left;
-  float: left;
-}
-#section-header #block-menu-menu-mobit-main-menu {
-  padding: 13px 0px;
-  margin-bottom: 2em;
-  -webkit-transition: margin-bottom 0.7s ease 0s;
-  -moz-transition: margin-bottom 0.7s ease 0s;
-  -o-transition: margin-bottom 0.7s ease 0s;
-  transition: margin-bottom 0.7s ease 0s;
-}
-#section-header #block-menu-menu-mobit-main-menu .menu {
-  padding: 0;
-}
-#section-header #block-menu-menu-mobit-main-menu .menu li {
-  list-style: none;
-  list-style-image: none;
-  float: left;
-}
-#section-header #block-menu-menu-mobit-main-menu .menu li a {
-  font-weight: bold;
-  font-size: 20px;
-}
-#section-header #block-menu-menu-mobit-main-menu .menu li.first {
-  margin-left: 0;
-}
-#section-header #block-block-60 {
-  padding-top: 40px;
-  -webkit-transition: padding-top 0.7s ease 0s;
-  -moz-transition: padding-top 0.7s ease 0s;
-  -o-transition: padding-top 0.7s ease 0s;
-  transition: padding-top 0.7s ease 0s;
-}
-#section-header #block-block-60 .content {
-  font-size: 20px;
-}
-#section-header #block-block-61 {
-  padding-top: 40px;
-  -webkit-transition: padding-top 0.7s ease 0s;
-  -moz-transition: padding-top 0.7s ease 0s;
-  -o-transition: padding-top 0.7s ease 0s;
-  transition: padding-top 0.7s ease 0s;
-}
-#section-header #block-block-61 .content {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-#section-header #block-block-62 {
-  margin-bottom: 2em;
-  -webkit-transition: margin-bottom 0.7s ease 0s;
-  -moz-transition: margin-bottom 0.7s ease 0s;
-  -o-transition: margin-bottom 0.7s ease 0s;
-  transition: margin-bottom 0.7s ease 0s;
-}
-#section-header #block-block-62 .content {
-  text-align: center;
-}
-#section-header #block-block-62 .mobit_btn {
-  width: 100%;
-}
-#section-header.fixed-transition #block-block-60 {
-  padding-top: 18px;
-}
-#section-header.fixed-transition #block-block-61 {
-  padding-top: 18px;
-}
-#section-header.fixed-transition #block-block-62, #section-header.fixed-transition #block-block-63 {
-  margin-bottom: 1em;
-}
-#section-latest {
-  padding-bottom: 30px;
-  background-color: #ecf0f1;
-}
-#section-users {
-  padding-top: 0;
-  background-color: #ecf0f1;
-}
-#section-users .block {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-#block-block-64 ul, #block-block-65 ul {
-  list-style-position: inside;
-}
-#block-block-64 h5, #block-block-65 h5 {
-  font-weight: bold;
-  margin: 30px 0 20px 0;
-}
-#section-news1 .block {
-  padding-top: 0px;
-}
-.mobit_aims {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.mobit_aims__item {
-  text-align: center;
-  border: 1px solid #13ce8f;
-  border-radius: 8px;
-  padding: 0 12%;
-  min-height: 275px;
-}
-.mobit_aims__item_wrap {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.mobit_aims__img {
-  padding-top: 29%;
-  padding-bottom: 25%;
-}
-#block-block-68 .content {
-  text-align: right;
-}
-#section-team {
-  background: #ecf0f1;
-}
-#block-block-69 .block-title {
-  margin: 0px 15px 125px 15px;
-}
-.per-quote__item {
-  border: 2px solid #13ce8f;
-  border-radius: 5px;
-  text-align: center;
-  background: #fff;
-}
-.per-quote__img {
-  background: #f3fffb;
-  border-radius: 100%;
-  border: 2px solid #13ce8f;
-  width: 150px;
-  height: 150px;
-  margin: -50px auto 0 auto;
-  line-height: 130px;
-}
-.per-quote__title {
-  padding: 2em 0;
-  font-size: 28px;
-}
-.per-quote__salary {
-  background: #0072c6;
-  color: #fff;
-  padding: 0.5em 0;
-  font-size: 28px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-#section-tweets {
-  background: url(/sites/all/themes/consilium/images/webform-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#section-tweets .region-tweet {
-  margin: 0 15px;
-  font-family: calibri;
-}
-#section-tweets .region-tweet h1, #section-tweets .region-tweet h2, #section-tweets .region-tweet h3, #section-tweets .region-tweet h4, #section-tweets .region-tweet h5, #section-tweets .region-tweet h6 {
-  color: #fff;
-}
-#block-block-71 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-#block-block-71 .block-title {
-  color: #fff;
-  font-weight: bold;
-}
-#block-block-71 .content {
-  color: #fff;
-  font-size: 36px;
-}
-#block-webform-client-block-89 .block-title {
-  color: #fff;
-}
-#block-webform-client-block-89 .content {
-  color: #fff;
-}
-#block-webform-client-block-89 .form-item, #block-webform-client-block-89 .form-actions {
-  display: inline-block;
-  width: 270px;
-  margin-right: 30px;
-}
-#block-webform-client-block-89 .form-item .form-text, #block-webform-client-block-89 .form-actions .form-text {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-}
-#block-block-70 {
-  margin-bottom: 30px;
 }
