@@ -1,15 +1,16 @@
 @mixin mobit_btn($bg_color:$order_btn, $text_color:#fff){
 	display: inline-block;
 	font-size: 20px;
-	padding: .8em 2.8em;
+	padding: .7em 2.8em;
 	background-color:$bg_color;	
 	color: $text_color !important;
 	border-radius: 2em;	
+	border: none;
 	font-weight: bold;
 	text-decoration: none;
 	outline: none;
 	&:hover{
-		background: darken($bg_color, 10%);
+		background: darken($bg_color, 10%) !important;
 	}
 	&:active{
 		background: darken($bg_color, 6%);
