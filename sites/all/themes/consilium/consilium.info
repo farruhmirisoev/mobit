@@ -110,6 +110,7 @@ scss[] = mobit_custom/mobit_custom.scss
 scripts[] = js/modernizr.min.js
 scripts[] = js/jquery.hoverdir.js
 scripts[] = js/consilium.js
+scripts[] = js/mobit_custom.js
 
 ; Settings
 settings[superhero_responsive] = '1'

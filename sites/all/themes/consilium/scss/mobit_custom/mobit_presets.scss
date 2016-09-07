@@ -1,42 +1,84 @@
-h1, h2, h3, h4, h5, h6{
-	color: $base_black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $base_black;
+    font-family: calibri;
+}
+
+h1 {
+    font-size: 3.389em;
+}
+
+h2 {
+    font-size: 2.889em;
+}
+
+h3 {
+    font-size: 2.1em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+
+h5 {
+    font-size: 1.222em;
+}
+
+.block h3.block-title {
+    text-transform: none;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a:not(.btn) {
+    &.active {
+        color: $base_blue;
+    }
+    &:hover,
+    &.active-block {
+        color: $order_btn;
+    }
+}
+
+.mobit_btn {
+    &__green {
+        @include mobit_btn();
+    }
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="datetime"],
+form input[type="datetime-local"],
+form input[type="date"],
+form input[type="month"],
+form input[type="time"],
+form input[type="week"],
+form input[type="number"],
+form input[type="email"],
+form input[type="url"],
+form input[type="search"],
+form input[type="tel"],
+form input[type="color"]{
+	border-radius: 3px;
+	height: 37px;
+	line-height: 37px;
+	border:1px solid $order_btn;
 	font-family: calibri;
-}
-h1{
-	font-size: 3.389em;
-}
-h2{
-	font-size:2.889em;
-}
-h3{
-	font-size: 2.1em;
-}
-h4{
-	font-size: 1.333em;
-}
-h5{
-	font-size: 1.222em;	
-}
-.block h3.block-title{
-	text-transform: none;
-	font-size:38px;
-	margin-bottom: 30px;
+	color: $base_black;
 }
 
-ul{
-	padding-left: 0;	
-}
+.button,button {
+	@include mobit_btn($base_blue);
+	line-height: initial;
+	font-family: calibri;
 
-a:not(.btn){
-	&.active{
-		color: $base_blue;
-	}
-	&:hover, &.active-block{
-		color: $order_btn;
-	}
-}
-.mobit_btn{
-	&__green{
-		@include mobit_btn();
-	}
 }
