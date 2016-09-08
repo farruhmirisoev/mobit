@@ -2474,6 +2474,9 @@ body {
   font-weight: bold;
   margin: 30px 0 20px 0;
 }
+#section-news1 {
+  padding-bottom: 50px;
+}
 #section-news1 .block {
   padding-top: 0px;
 }
@@ -2609,4 +2612,71 @@ body {
 #section-feature .mobit_subject__title {
   text-align: center;
   margin: 20px 0;
+}
+#section-clients {
+  background: none !important;
+}
+.ctrl_proccess__step img {
+  border: 1px solid #13ce8f;
+}
+.ctrl_proccess__step--arrow-right {
+  background: url(/sites/default/files/mobit/arrow_right.png) no-repeat right center;
+  height: 30px;
+  margin-top: 11%;
+}
+.ctrl_proccess__step--arrow-down {
+  background: url(/sites/default/files/mobit/arrow_down.png) no-repeat center bottom;
+}
+.ctrl_proccess__step--arrow-left {
+  background: url(/sites/default/files/mobit/arrow_left.png) no-repeat left center;
+  height: 30px;
+  margin-top: 11%;
+}
+.ctrl_proccess__step--arrow-up {
+  background: url(/sites/default/files/mobit/arrow_up.png) no-repeat center top;
+}
+.ctrl_proccess__step--1 {
+  padding-right: 0;
+}
+.ctrl_proccess__step--2 {
+  padding-left: 0;
+}
+.ctrl_proccess__step--3 {
+  padding-right: 0;
+}
+.ctrl_proccess__step--4 {
+  padding-left: 0;
+}
+.ctrl_proccess__title {
+  height: 145px;
+  padding: 20px 0;
+}
+.ctrl_proccess__img {
+  position: relative;
+}
+.ctrl_proccess_step-order {
+  background: #13ce8f;
+  font-size: 73px;
+  color: #fff;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  bottom: -50px;
+}
+#block-block-73 {
+  margin: 0 15px;
+}
+#block-block-73 .block-title {
+  margin: 70px 0;
+}
+#section-news2 {
+  background: #ecf0f1;
+}
+#section-news2 #block-block-74 .block-title {
+  padding-top: 0;
+  margin-bottom: 70px;
 }
