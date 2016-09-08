@@ -36,7 +36,7 @@ function consilium_breadcrumb($variables) {
 function consilium_form_alter(&$form, &$form_state, $form_id){
 	switch ($form_id) {
 		case 'webform_client_form_89':
-			drupal_add_js('console.log('.json_encode($form).')','inline');
+			
 			break;
 		
 		default:
