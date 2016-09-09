@@ -2680,3 +2680,27 @@ body {
   padding-top: 0;
   margin-bottom: 70px;
 }
+#block-md-slider-5 {
+  padding: 30px 15px;
+}
+#block-md-slider-7 {
+  margin-left: -120px;
+}
+.md-slide-bullet-1 .md-bullets, .md-slide-bullet-3 .md-bullets {
+  bottom: 80px;
+}
+.md-slide-bullet-1 .md-bullets .md-bullet, .md-slide-bullet-3 .md-bullets .md-bullet {
+  border: 1px solid #13ce8f;
+  border-radius: 13px;
+  background: #fff;
+  height: 26px;
+  width: 26px;
+  overflow: hidden;
+}
+.md-slide-bullet-1 .md-bullets .md-bullet a, .md-slide-bullet-3 .md-bullets .md-bullet a {
+  height: 26px;
+  width: 26px;
+}
+.md-slide-bullet-1 .md-bullets .md-bullet.md-current a, .md-slide-bullet-3 .md-bullets .md-bullet.md-current a {
+  background: #13ce8f;
+}
