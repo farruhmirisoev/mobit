@@ -1,55 +1,57 @@
 .md-layer-7-0-0 {
 z-index: 985 !important;}
 .md-layer-7-0-1 {
-z-index: 986 !important; font-size: 2em;
+z-index: 1000 !important; font-size: 2em;
+ font-weight: 700;
+ font-family: Arial;
 }
 .md-layer-7-0-2 {
-z-index: 987 !important; font-size: 1.5em;
+z-index: 986 !important; font-size: 1.5em;
 }
 .md-layer-7-0-3 {
-z-index: 990 !important; color: #0074c6 !important;
+z-index: 989 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-4 {
-z-index: 992 !important; color: #0074c6 !important;
+z-index: 991 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-5 {
-z-index: 989 !important; font-size: 1.5em;
+z-index: 988 !important; font-size: 1.5em;
 }
 .md-layer-7-0-6 {
-z-index: 994 !important; color: #0074c6 !important;
+z-index: 993 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-7 {
-z-index: 996 !important; color: #0074c6 !important;
+z-index: 995 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-8 {
-z-index: 998 !important; color: #0074c6 !important;
+z-index: 997 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-9 {
-z-index: 988 !important; color: #0074c6 !important;
+z-index: 987 !important; color: #0074c6 !important;
  font-size: 2.5em;
 }
 .md-layer-7-0-10 {
-z-index: 991 !important; font-size: 1.5em;
+z-index: 990 !important; font-size: 1.5em;
 }
 .md-layer-7-0-11 {
-z-index: 993 !important; font-size: 1.5em;
+z-index: 992 !important; font-size: 1.5em;
 }
 .md-layer-7-0-12 {
-z-index: 995 !important; font-size: 1.5em;
+z-index: 994 !important; font-size: 1.5em;
 }
 .md-layer-7-0-13 {
-z-index: 997 !important; font-size: 1.5em;
+z-index: 996 !important; font-size: 1.5em;
 }
 .md-layer-7-0-14 {
-z-index: 999 !important; font-size: 1.5em;
+z-index: 998 !important; font-size: 1.5em;
 }
 .md-layer-7-0-15 {
-z-index: 1000 !important; text-align: center;
+z-index: 999 !important; text-align: center;
  font-size: 1.83333333333em;
 }
 .md-layer-7-1-0 {

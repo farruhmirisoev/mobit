@@ -2671,10 +2671,18 @@ body {
   margin: 0 15px;
 }
 #block-block-73 .block-title {
-  margin: 70px 0;
+  margin: 60px 0;
 }
 #section-news2 {
   background: #ecf0f1;
+}
+#section-news2 #block-md-slider-5 {
+  padding-top: 0;
+}
+#section-news2 #block-md-slider-5 .block-title {
+  padding-top: 0;
+  margin-bottom: 60px;
+  max-width: 600px;
 }
 #section-news2 #block-block-74 .block-title {
   padding-top: 0;
