@@ -2330,7 +2330,7 @@ a:not(.btn):hover, a:not(.btn).active-block {
 }
 .mobit_btn__green {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.111em;
   padding: 0.7em 2.8em;
   background-color: #13ce8f;
   color: #fff !important;
@@ -2360,7 +2360,7 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
 }
 .button, button {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.111em;
   padding: 0.7em 2.8em;
   background-color: #0072c6;
   color: #fff !important;
@@ -2410,7 +2410,7 @@ body {
 }
 #section-header #block-menu-menu-mobit-main-menu .menu li a {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.111em;
 }
 #section-header #block-menu-menu-mobit-main-menu .menu li.first {
   margin-left: 0;
