@@ -1,6 +1,6 @@
 @mixin mobit_btn($bg_color:$order_btn, $text_color:#fff){
 	display: inline-block;
-	font-size: 20px;
+	font-size: 1.111em;
 	padding: .7em 2.8em;
 	background-color:$bg_color;	
 	color: $text_color !important;
