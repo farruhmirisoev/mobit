@@ -2311,9 +2311,12 @@ h4 {
 h5 {
   font-size: 1.222em;
 }
+h6 {
+  font-size: 1.111em;
+}
 .block h3.block-title {
   text-transform: none;
-  font-size: 38px;
+  font-size: 2.1em;
   margin-bottom: 30px;
 }
 ul {
@@ -2383,6 +2386,7 @@ body {
   font-family: calibri, open_sanslight;
   color: #050505;
   font-size: 18px;
+  position: relative;
 }
 .region-menu {
   clear: left;
@@ -2418,8 +2422,8 @@ body {
   -o-transition: padding-top 0.7s ease 0s;
   transition: padding-top 0.7s ease 0s;
 }
-#section-header #block-block-60 .content {
-  font-size: 20px;
+#section-header #block-block-60 .content h6 {
+  margin: 0;
 }
 #section-header #block-block-61 {
   padding-top: 40px;
@@ -2429,9 +2433,10 @@ body {
   transition: padding-top 0.7s ease 0s;
 }
 #section-header #block-block-61 .content {
-  font-size: 20px;
-  font-weight: bold;
   text-align: center;
+}
+#section-header #block-block-61 .content h5 {
+  margin: 0;
 }
 #section-header #block-block-62 {
   margin-bottom: 2em;
@@ -2480,6 +2485,10 @@ body {
 #section-news1 .block {
   padding-top: 0px;
 }
+#section-news1 .block .block-title {
+  padding: 0;
+  margin: 60px 0;
+}
 .mobit_aims {
   margin-left: -15px;
   margin-right: -15px;
@@ -2523,15 +2532,26 @@ body {
   margin: -50px auto 0 auto;
   line-height: 130px;
 }
+@media (max-width: 1336px) {
+  .per-quote__img {
+    width: 100px;
+    height: 100px;
+  }
+  .per-quote__img img {
+    height: 60px;
+    line-height: 100px;
+    margin-top: -50px;
+  }
+}
 .per-quote__title {
   padding: 2em 0;
-  font-size: 28px;
+  font-size: 1.556em;
 }
 .per-quote__salary {
   background: #0072c6;
   color: #fff;
   padding: 0.5em 0;
-  font-size: 28px;
+  font-size: 1.556em;
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -2557,7 +2577,10 @@ body {
 }
 #block-block-71 .content {
   color: #fff;
-  font-size: 36px;
+  font-size: 2em;
+}
+#block-block-72 {
+  padding: 0 15px;
 }
 #block-webform-client-block-89 .block-title {
   color: #fff;
@@ -2711,4 +2734,12 @@ body {
 }
 .md-slide-bullet-1 .md-bullets .md-bullet.md-current a, .md-slide-bullet-3 .md-bullets .md-bullet.md-current a {
   background: #13ce8f;
+}
+@media (max-width: 1336px) {
+  .container {
+    width: 960px;
+  }
+  body {
+    font-size: 14px;
+  }
 }
