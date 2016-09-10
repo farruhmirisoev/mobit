@@ -333,7 +333,7 @@ body {
 
 .ctrl_proccess_step-order {
     background: $order_btn;
-    font-size: 73px;
+    font-size: 4.056em;
     color: #fff;
     border-radius: 50px;
     width: 100px;
@@ -343,6 +343,11 @@ body {
     position: absolute;
     right: 30px;
     bottom: -50px;
+    @media (max-width: 1336px) {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
 }
 
 #block-block-73 {
