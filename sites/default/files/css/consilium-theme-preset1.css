@@ -2679,7 +2679,7 @@ body {
 }
 .ctrl_proccess_step-order {
   background: #13ce8f;
-  font-size: 73px;
+  font-size: 4.056em;
   color: #fff;
   border-radius: 50px;
   width: 100px;
@@ -2689,6 +2689,13 @@ body {
   position: absolute;
   right: 30px;
   bottom: -50px;
+}
+@media (max-width: 1336px) {
+  .ctrl_proccess_step-order {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
 }
 #block-block-73 {
   margin: 0 15px;
