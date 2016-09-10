@@ -2607,7 +2607,7 @@ body {
 }
 #section-feature .mobit_subject__item {
   border-radius: 50%;
-  padding: 22px;
+  padding: 12px;
   -webkit-transition: border-radius 0.3s ease-out 0s;
   -moz-transition: border-radius 0.3s ease-out 0s;
   -o-transition: border-radius 0.3s ease-out 0s;
@@ -2616,7 +2616,7 @@ body {
 #section-feature .mobit_subject__item:hover {
   border-radius: 5px;
   border: 2px solid #0072c6;
-  padding: 20px;
+  padding: 10px;
   background: #fff;
 }
 #section-feature .mobit_subject__item a {
@@ -2631,6 +2631,17 @@ body {
   line-height: 118px;
   background: #0072c6;
   border-radius: 100%;
+}
+@media (max-width: 1336px) {
+  #section-feature .mobit_subject__img {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+  #section-feature .mobit_subject__img img {
+    height: 40px !important;
+    width: auto !important;
+  }
 }
 #section-feature .mobit_subject__title {
   text-align: center;
