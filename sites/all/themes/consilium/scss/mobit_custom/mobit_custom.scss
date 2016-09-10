@@ -256,12 +256,12 @@ body {
     .mobit_subject {}
     .mobit_subject__item {
         border-radius: 50%;
-        padding: 22px;
+        padding: 12px;
         @include transition(border-radius 0.3s ease-out 0s);
         &:hover {
             border-radius: 5px;
             border: 2px solid $base_blue;
-            padding: 20px;
+            padding: 10px;
             background: #fff;
         }
         a {
@@ -277,6 +277,15 @@ body {
         line-height: 118px;
         background: $base_blue;
         border-radius: 100%;
+        @media (max-width: 1336px) {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            img {
+                height: 40px !important;
+                width: auto !important;
+            }
+        }
     }
     .mobit_subject__title {
         text-align: center;
