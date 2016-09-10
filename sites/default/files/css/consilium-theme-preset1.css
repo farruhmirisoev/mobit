@@ -2392,28 +2392,44 @@ body {
   clear: left;
   float: left;
 }
-#section-header #block-menu-menu-mobit-main-menu {
-  padding: 13px 0px;
-  margin-bottom: 2em;
+#section-header #block-menu-menu-mobit-main-menu, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 {
   -webkit-transition: margin-bottom 0.7s ease 0s;
   -moz-transition: margin-bottom 0.7s ease 0s;
   -o-transition: margin-bottom 0.7s ease 0s;
   transition: margin-bottom 0.7s ease 0s;
 }
-#section-header #block-menu-menu-mobit-main-menu .menu {
+#section-header #block-menu-menu-mobit-main-menu .menu, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu {
   padding: 0;
 }
-#section-header #block-menu-menu-mobit-main-menu .menu li {
+#section-header #block-menu-menu-mobit-main-menu .menu li, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li {
   list-style: none;
   list-style-image: none;
-  float: left;
 }
-#section-header #block-menu-menu-mobit-main-menu .menu li a {
+#section-header #block-menu-menu-mobit-main-menu .menu li a, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
+  font-family: calibri;
+  padding: 0 6px;
   font-weight: bold;
   font-size: 1.111em;
+  text-transform: none;
+  line-height: 55px;
 }
-#section-header #block-menu-menu-mobit-main-menu .menu li.first {
+@media (max-width: 1336px) {
+  #section-header #block-menu-menu-mobit-main-menu .menu li a, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
+    line-height: 45px;
+  }
+}
+#section-header #block-menu-menu-mobit-main-menu .menu li.first, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li.first {
   margin-left: 0;
+}
+@media (min-width: 993px) {
+  #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown > ul, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown > ul {
+    float: left;
+  }
+}
+@media (max-width: 992px) {
+  #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown li, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown li {
+    text-align: center;
+  }
 }
 #section-header #block-block-60 {
   padding-top: 40px;
@@ -2424,6 +2440,11 @@ body {
 }
 #section-header #block-block-60 .content h6 {
   margin: 0;
+}
+@media (max-width: 992px) {
+  #section-header #block-block-60 {
+    padding-top: 20px;
+  }
 }
 #section-header #block-block-61 {
   padding-top: 40px;
@@ -2437,6 +2458,11 @@ body {
 }
 #section-header #block-block-61 .content h5 {
   margin: 0;
+}
+@media (max-width: 992px) {
+  #section-header #block-block-61 {
+    padding-top: 20px;
+  }
 }
 #section-header #block-block-62 {
   margin-bottom: 2em;
