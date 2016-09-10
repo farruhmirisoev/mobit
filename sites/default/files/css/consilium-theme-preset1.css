@@ -389,7 +389,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 .view-testimonial .bx-wrapper .views-field-body {
   padding-bottom: 15px;
-  background: url(http://mobit.t/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
+  background: url(http://mobit.websparta.ru/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
 }
 .view-testimonial .bx-wrapper .views-field-body .field-content {
   background: rgba(238, 238, 238, 0.8);
@@ -1225,64 +1225,64 @@ ul.pagination li.active a:hover, ul.pagination li.active a:focus {
   font-family: NovecentowideUltraLightBold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
 }
 @font-face {
   font-family: NovecentowideNormalRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideLightRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideBookRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 @font-face {
   font-family: open_sansbold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
 }
 @font-face {
   font-family: open_sanslight;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
 }
 @font-face {
   font-family: open_sanssemibold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 .center {
   text-align: center;
@@ -1589,13 +1589,13 @@ label {
   background: none !important;
 }
 .header-overlay .sticky-wrapper #section-header > .container {
-  background: url(http://mobit.t/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
+  background: url(http://mobit.websparta.ru/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
 }
 #section-banner {
   clear: both;
 }
 .md-arrow-left {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
+  background: #fff url(http://mobit.websparta.ru/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
   left: 0 !important;
   width: 60px;
   height: 60px;
@@ -1609,7 +1609,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 .md-arrow-right {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
+  background: #fff url(http://mobit.websparta.ru/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
   right: 0 !important;
   width: 60px;
   height: 60px;
