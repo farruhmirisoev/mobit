@@ -2787,3 +2787,26 @@ body {
     font-size: 14px;
   }
 }
+@media (max-width: 780px) {
+  .region-news3-second {
+    display: none;
+  }
+  .region-news4-second {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  body {
+    font-size: 12px;
+  }
+  #section-header .region-logo {
+    width: 100%;
+  }
+  #section-header .region-news2-second {
+    display: none;
+  }
+  #section-header .region-news2-second #block-block-60 {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
