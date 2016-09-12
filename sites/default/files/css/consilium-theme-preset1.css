@@ -2795,7 +2795,6 @@ body {
 }
 .md-slide-bullet-1 .md-bullets, .md-slide-bullet-3 .md-bullets {
   bottom: 80px;
-  display: none;
 }
 .md-slide-bullet-1 .md-bullets .md-bullet, .md-slide-bullet-3 .md-bullets .md-bullet {
   border: 1px solid #13ce8f;
