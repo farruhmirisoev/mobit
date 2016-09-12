@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
         formLabelText = $(this).find('label').hide().text();
         $(this).find('input').attr('placeholder', formLabelText);
     });
-
+    // remove btn class 
     $('#block-webform-client-block-89 .form-submit').removeClass('btn');
 
 
