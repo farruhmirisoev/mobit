@@ -35,7 +35,27 @@ h6 {
     text-transform: none;
     font-size: 2.1em;
     margin-bottom: 30px;
+}
 
+@media (max-width: 780px) {
+    h1 {
+        font-size: 2.889em;
+    }
+    h2 {
+        font-size: 2.1em;
+    }
+    h3 {
+        font-size: 1.333em;
+    }
+    h4 {
+        font-size: 1.222em;
+    }
+    h5 {
+        font-size: 1.111em;
+    }
+    .block h3.block-title {
+        font-size: 1.333em;
+    }
 }
 
 ul {
@@ -71,18 +91,18 @@ form input[type="email"],
 form input[type="url"],
 form input[type="search"],
 form input[type="tel"],
-form input[type="color"]{
-	border-radius: 3px;
-	height: 37px;
-	line-height: 37px;
-	border:1px solid $order_btn;
-	font-family: calibri;
-	color: $base_black;
+form input[type="color"] {
+    border-radius: 3px;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid $order_btn;
+    font-family: calibri;
+    color: $base_black;
 }
 
-.button,button {
-	@include mobit_btn($base_blue);
-	line-height: initial;
-	font-family: calibri;
-
+.button,
+button {
+    @include mobit_btn($base_blue);
+    line-height: initial;
+    font-family: calibri;
 }
