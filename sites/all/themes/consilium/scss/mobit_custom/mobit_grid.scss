@@ -7,19 +7,74 @@
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 960px) {
+    #block-block-71,
+    #block-block-70 {
+        text-align: center;
+    }
+    #block-webform-client-block-89 {
+        .form-item,
+        .form-actions {
+            display: block;
+            margin: 1em auto;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    // body{
+    //  font-size: 12px;
+    // }
     .region-news3-second {
         display: none;
     }
     .region-news4-second {
         display: none;
     }
+    #section-header #block-block-60 {
+        padding-top: 24px;
+    }
+    #block-block-63 {
+        h4 {
+            font-size: 1.1em;
+        }
+    }
+    .ctrl_proccess_step-order {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 2em;
+        right: 13px;
+        bottom: -14px;
+    }
+    .per-quote__wrap {
+        margin-bottom: 100px;
+    }
+    #block-block-68 .content {
+        text-align: center;
+    }
+    .region-bottom-first,
+    .region-bottom-second {
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .region-bottom-first,
+    .region-bottom-second {
+        width: 100%;
+        float: none;
+    }
+    #section-bottom {
+        .region-bottom-third {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    }
 }
 
 @media (max-width: 560px) {
-	body{
-		font-size: 12px;
-	}
     #section-header {
         .region-logo {
             width: 100%;
@@ -29,9 +84,22 @@
             display: none;
             // width: 180px;
             // width: 100%;
-            #block-block-60 {
-                padding-top: 10px;
-                text-align: center;
+            // #block-block-60 {
+            //     padding-top: 10px;
+            //     text-align: center;
+            // }
+        }
+    }
+    #block-md-slider-7 {
+        margin-left: -75px;
+    }
+    .md-slide-bullet-1,
+    .md-slide-bullet-3 {
+        .md-bullets {
+            bottom: -35px;
+            .md-bullet {
+                width: 15px;
+                height: 15px;
             }
         }
     }

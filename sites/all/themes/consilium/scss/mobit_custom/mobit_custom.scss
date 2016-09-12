@@ -21,7 +21,11 @@ body {
             li {
                 list-style: none;
                 list-style-image: none;
-                // float: left;
+                &.first{
+                    a {
+                        padding-left: 0;
+                    }
+                }
                 a {
                     font-family: calibri;
                     padding: 0 6px;
@@ -29,6 +33,7 @@ body {
                     font-size: 1.111em;
                     text-transform: none;
                     line-height: 55px;
+
                     @media (max-width: 1336px) {
                         line-height: 45px;
                     }
@@ -244,7 +249,7 @@ body {
     }
     .content {
         color: #fff;
-        font-size: 2em;
+        // font-size: 2em;
     }
 }
 
@@ -282,11 +287,18 @@ body {
         border-radius: 50%;
         padding: 12px;
         @include transition(border-radius 0.3s ease-out 0s);
-        &:hover {
+        &:hover , &--active{
             border-radius: 5px;
             border: 2px solid $base_blue;
             padding: 10px;
             background: #fff;
+        }
+        &--active, &--active:hover{
+            background: $order_btn;
+            color: #fff;
+            a{
+                color: #fff;
+            }
         }
         a {
             color: $base_blue;
@@ -416,10 +428,17 @@ body {
     margin-left: -120px;
 }
 
+#block-md-slider-1{
+    .md-bullets{
+        display: none;
+    }
+}
+
 .md-slide-bullet-1,
 .md-slide-bullet-3 {
     .md-bullets {
         bottom: 80px;
+        display: none;
         .md-bullet {
             border: 1px solid $order_btn;
             border-radius: 13px;
