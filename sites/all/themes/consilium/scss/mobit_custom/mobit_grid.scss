@@ -58,6 +58,16 @@
     .region-bottom-second {
         text-align: center;
     }
+    .md-slide-bullet-1,
+    .md-slide-bullet-3 {
+        .md-bullets {
+            bottom: -35px;
+            .md-bullet {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 640px) {
@@ -73,7 +83,7 @@
         }
     }
 }
- 
+
 @media (max-width: 560px) {
     #section-header {
         .region-logo {
@@ -82,25 +92,13 @@
         }
         .region-news2-second {
             display: none;
-
         }
     }
     #block-md-slider-7 {
         margin-left: -75px;
     }
-    .md-slide-bullet-1,
-    .md-slide-bullet-3 {
-        .md-bullets {
-            bottom: -35px;
-            .md-bullet {
-                width: 15px;
-                height: 15px;
-            }
-        }
-    }
-
-    #block-block-70{
-        h1{
+    #block-block-70 {
+        h1 {
             font-size: 2em;
         }
     }
