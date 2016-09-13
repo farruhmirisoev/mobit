@@ -2667,6 +2667,12 @@ body {
 #section-feature {
   background: #ecf0f1;
 }
+#section-feature .mobit_subject {
+  margin: 0 -15px;
+}
+#section-feature .mobit_subject__wrap {
+  margin-bottom: 15px;
+}
 #section-feature .mobit_subject__item {
   border-radius: 50%;
   padding: 12px;
@@ -2681,14 +2687,9 @@ body {
   padding: 10px;
   background: #fff;
 }
-#section-feature .mobit_subject__item--active, #section-feature .mobit_subject__item--active:hover {
-  background: #13ce8f;
-  color: #fff;
-}
-#section-feature .mobit_subject__item--active a, #section-feature .mobit_subject__item--active:hover a {
-  color: #fff;
-}
 #section-feature .mobit_subject__item a {
+  display: block;
+  outline: none;
   color: #0072c6;
   text-decoration: underline;
 }
@@ -2825,6 +2826,69 @@ body {
 }
 .md-slide-bullet-1 .md-bullets .md-bullet.md-current a, .md-slide-bullet-3 .md-bullets .md-bullet.md-current a {
   background: #13ce8f;
+}
+#colorbox {
+  background: url(/sites/all/themes/consilium/images/webform_bg.png) #fff no-repeat;
+  background-size: 100%;
+}
+#cboxContent, #cboxWrapper {
+  background: none;
+}
+#cboxClose {
+  bottom: auto;
+  right: 0;
+  top: 0;
+  background: url(/sites/all/themes/consilium/images/close.png) no-repeat;
+  width: 31px;
+  height: 31px;
+  opacity: 0.7;
+}
+#cboxClose:hover {
+  background: url(/sites/all/themes/consilium/images/close.png) no-repeat !important;
+  opacity: 1;
+}
+#webform-node-90 {
+  width: 410px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+#webform-node-90 .webform-title {
+  color: #13ce8f;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+#webform-node-90 .webform-body .field-name-body {
+  margin: 7% 0;
+  text-align: center;
+}
+#webform-node-90 .webform-body .form-actions {
+  text-align: center;
+}
+#webform-node-90 .webform-body .form-actions .form-submit {
+  display: inline-block;
+  font-size: 1.111em;
+  padding: 0.7em 2.8em;
+  background-color: #13ce8f;
+  color: #fff !important;
+  border-radius: 2em;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+}
+#webform-node-90 .webform-body .form-actions .form-submit:hover {
+  background: #0f9f6f !important;
+}
+#webform-node-90 .webform-body .form-actions .form-submit:active {
+  background: #10b27c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.page-node-90 .page_title {
+  display: none;
 }
 @media (max-width: 1336px) {
   .container {

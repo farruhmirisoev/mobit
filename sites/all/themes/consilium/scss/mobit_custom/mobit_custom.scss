@@ -22,7 +22,7 @@ body {
                 list-style: none;
                 list-style-image: none;
                 &.first {
-                      margin-left: 0;
+                    margin-left: 0;
                     a {
                         padding-left: 0;
                     }
@@ -38,18 +38,16 @@ body {
                     @media (max-width: 1336px) {
                         line-height: 45px;
                     }
-                    &.active{
+                    &.active {
                         color: $base_blue;
                     }
-                    
                 }
-
             }
         }
         @media (min-width: 993px) {
             .superhero-dropdown > ul {
                 float: left;
-                &>li>a.active{
+                &>li>a.active {
                     color: $base_blue !important;
                 }
             }
@@ -295,7 +293,12 @@ body {
 
 #section-feature {
     background: $bg_gray;
-    .mobit_subject {}
+    .mobit_subject {
+        margin: 0 -15px;
+    }
+    .mobit_subject__wrap{
+        margin-bottom: 15px;
+    }
     .mobit_subject__item {
         border-radius: 50%;
         padding: 12px;
@@ -307,15 +310,9 @@ body {
             padding: 10px;
             background: #fff;
         }
-        &--active,
-        &--active:hover {
-            background: $order_btn;
-            color: #fff;
-            a {
-                color: #fff;
-            }
-        }
         a {
+            display: block;
+            outline: none;
             color: $base_blue;
             text-decoration: underline;
         }
@@ -470,5 +467,59 @@ body {
                 background: $order_btn;
             }
         }
+    }
+}
+
+#colorbox {
+    background: url(/sites/all/themes/consilium/images/webform_bg.png) #fff no-repeat;
+    background-size: 100%;
+}
+
+#cboxContent,
+#cboxWrapper {
+    background: none;
+}
+
+#cboxClose {
+    bottom: auto;
+    right: 0;
+    top: 0;
+    background: url(/sites/all/themes/consilium/images/close.png) no-repeat;
+    width: 31px;
+    height: 31px;
+    opacity: 0.7;
+    &:hover {
+        background: url(/sites/all/themes/consilium/images/close.png) no-repeat !important;
+        opacity: 1;
+
+    }
+}
+
+#webform-node-90 {
+    width: 410px;
+    margin: 0 auto;
+    padding-top: 10%;
+    .webform-title {
+        color: $order_btn;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .webform-body {
+        .field-name-body {
+            margin: 7% 0;
+            text-align: center;
+        }
+        .form-actions {
+            text-align: center;
+            .form-submit{
+                @include mobit_btn($order_btn);
+            }
+        }
+    }
+}
+.page-node-90{
+    .page_title{
+        display:none;
     }
 }
