@@ -39,6 +39,7 @@ z-index: 2 !important; font-size: 2em;
  text-transform: none;
 }
 .md-layer-5-2-3 {
-z-index: 2 !important; font-size: 1.83333333333em;
+z-index: 2 !important; text-align: center;
+ font-size: 1.83333333333em;
  font-weight: 400;
 }
