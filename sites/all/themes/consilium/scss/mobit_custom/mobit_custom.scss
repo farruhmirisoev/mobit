@@ -21,7 +21,8 @@ body {
             li {
                 list-style: none;
                 list-style-image: none;
-                &.first{
+                &.first {
+                      margin-left: 0;
                     a {
                         padding-left: 0;
                     }
@@ -33,19 +34,24 @@ body {
                     font-size: 1.111em;
                     text-transform: none;
                     line-height: 55px;
-
+                    color: $base_blue;
                     @media (max-width: 1336px) {
                         line-height: 45px;
                     }
+                    &.active{
+                        color: $base_blue;
+                    }
+                    
                 }
-                &.first {
-                    margin-left: 0;
-                }
+
             }
         }
         @media (min-width: 993px) {
             .superhero-dropdown > ul {
                 float: left;
+                &>li>a.active{
+                    color: $base_blue !important;
+                }
             }
         }
         @media (max-width: 992px) {
@@ -172,9 +178,11 @@ body {
 
 #section-team {
     background: $bg_gray;
+    padding: 0;
 }
 
 #block-block-69 {
+    padding: 50px 0;
     .block-title {
         margin: 0px 15px 125px 15px;
     }
@@ -278,8 +286,8 @@ body {
 
 #block-block-70 {
     margin-bottom: 30px;
-    .content{
-        a{
+    .content {
+        a {
             color: #fff;
         }
     }
@@ -292,16 +300,18 @@ body {
         border-radius: 50%;
         padding: 12px;
         @include transition(border-radius 0.3s ease-out 0s);
-        &:hover , &--active{
+        &:hover,
+        &--active {
             border-radius: 5px;
             border: 2px solid $base_blue;
             padding: 10px;
             background: #fff;
         }
-        &--active, &--active:hover{
+        &--active,
+        &--active:hover {
             background: $order_btn;
             color: #fff;
-            a{
+            a {
                 color: #fff;
             }
         }
@@ -401,9 +411,10 @@ body {
 }
 
 #block-block-73 {
+    padding-top: 60px;
     margin: 0 15px;
     .block-title {
-        margin: 60px 0;
+        margin-bottom: 60px;
     }
 }
 
@@ -433,8 +444,8 @@ body {
     margin-left: -120px;
 }
 
-#block-md-slider-1{
-    .md-bullets{
+#block-md-slider-1 {
+    .md-bullets {
         display: none;
     }
 }
