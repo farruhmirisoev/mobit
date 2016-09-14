@@ -2564,6 +2564,9 @@ body {
   padding-top: 20%;
   padding-bottom: 25%;
 }
+.mobit_aims__title {
+  line-height: 1em;
+}
 #block-block-68 .content {
   text-align: right;
 }
@@ -2789,7 +2792,7 @@ body {
   background: #ecf0f1;
 }
 #section-news2 #block-md-slider-5 {
-  padding-top: 0;
+  padding: 30px 15px 60px 15px;
 }
 #section-news2 #block-md-slider-5 .block-title {
   padding-top: 0;
@@ -2799,9 +2802,6 @@ body {
 #section-news2 #block-block-74 .block-title {
   padding-top: 0;
   margin-bottom: 70px;
-}
-#block-md-slider-5 {
-  padding: 30px 15px;
 }
 #block-md-slider-7 {
   margin-left: -120px;
@@ -2847,25 +2847,34 @@ body {
   background: url(/sites/all/themes/consilium/images/close.png) no-repeat !important;
   opacity: 1;
 }
-#webform-node-90 {
+#webform-ajax-wrapper-90 .alert-danger, #webform-ajax-wrapper-89--2 .alert-danger {
+  display: none;
+}
+#webform-ajax-wrapper-90 .links, #webform-ajax-wrapper-89--2 .links {
+  display: none;
+}
+#webform-ajax-wrapper-90 .webform-confirmation h5, #webform-ajax-wrapper-89--2 .webform-confirmation h5 {
+  color: #13ce8f;
+}
+#webform-node-90, #webform-node-89 {
   width: 410px;
   margin: 0 auto;
   padding-top: 10%;
 }
-#webform-node-90 .webform-title {
+#webform-node-90 .webform-title, #webform-node-89 .webform-title {
   color: #13ce8f;
   font-weight: bold;
   text-align: center;
   margin-bottom: 0;
 }
-#webform-node-90 .webform-body .field-name-body {
+#webform-node-90 .webform-body .field-name-body, #webform-node-89 .webform-body .field-name-body {
   margin: 7% 0;
   text-align: center;
 }
-#webform-node-90 .webform-body .form-actions {
+#webform-node-90 .webform-body .form-actions, #webform-node-89 .webform-body .form-actions {
   text-align: center;
 }
-#webform-node-90 .webform-body .form-actions .form-submit {
+#webform-node-90 .webform-body .form-actions .form-submit, #webform-node-89 .webform-body .form-actions .form-submit {
   display: inline-block;
   font-size: 1.111em;
   padding: 0.7em 2.8em;
@@ -2877,18 +2886,50 @@ body {
   text-decoration: none;
   outline: none;
 }
-#webform-node-90 .webform-body .form-actions .form-submit:hover {
+#webform-node-90 .webform-body .form-actions .form-submit:hover, #webform-node-89 .webform-body .form-actions .form-submit:hover {
   background: #0f9f6f !important;
 }
-#webform-node-90 .webform-body .form-actions .form-submit:active {
+#webform-node-90 .webform-body .form-actions .form-submit:active, #webform-node-89 .webform-body .form-actions .form-submit:active {
   background: #10b27c;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
   transition: none;
 }
-.page-node-90 .page_title {
+#webform-node-90 .webform-body .form-actions .ajax-progress, #webform-node-89 .webform-body .form-actions .ajax-progress {
   display: none;
+}
+.page-node-90 .page_title, .page-node-89 .page_title {
+  display: none;
+}
+#webform-node-89 .webform-title {
+  font-size: 1.8em;
+}
+#webform-ajax-wrapper-89 .webform-confirmation {
+  background: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+#webform-ajax-wrapper-89 .webform-confirmation h5 {
+  color: #13ce8f;
+}
+#webform-ajax-wrapper-89 .alert-danger {
+  display: none;
+}
+#webform-ajax-wrapper-89 .links {
+  display: none;
+}
+#webform-ajax-wrapper-89 .form-actions .ajax-progress {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+#section-footer a {
+  color: #fff;
+}
+#section-footer a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 1336px) {
   .container {
@@ -2896,6 +2937,12 @@ body {
   }
   body {
     font-size: 14px;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
+    font-size: 1em;
+  }
+  .mobit_btn {
+    font-size: 1em;
   }
 }
 @media (max-width: 960px) {

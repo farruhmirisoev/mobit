@@ -166,7 +166,9 @@ body {
     padding-bottom: 25%;
 }
 
-.mobit_aims__title {}
+.mobit_aims__title {
+    line-height: 1em
+}
 
 #block-block-68 {
     .content {
@@ -296,7 +298,7 @@ body {
     .mobit_subject {
         margin: 0 -15px;
     }
-    .mobit_subject__wrap{
+    .mobit_subject__wrap {
         margin-bottom: 15px;
     }
     .mobit_subject__item {
@@ -418,7 +420,8 @@ body {
 #section-news2 {
     background: $bg_gray;
     #block-md-slider-5 {
-        padding-top: 0;
+        
+         padding: 30px 15px 60px 15px;
         .block-title {
             padding-top: 0;
             margin-bottom: 60px;
@@ -433,9 +436,6 @@ body {
     }
 }
 
-#block-md-slider-5 {
-    padding: 30px 15px;
-}
 
 #block-md-slider-7 {
     margin-left: -120px;
@@ -491,11 +491,22 @@ body {
     &:hover {
         background: url(/sites/all/themes/consilium/images/close.png) no-repeat !important;
         opacity: 1;
-
     }
 }
-
-#webform-node-90 {
+#webform-ajax-wrapper-90, #webform-ajax-wrapper-89--2{
+    .alert-danger{
+        display: none;
+    }
+    .links{
+        display: none;
+    }
+    .webform-confirmation{
+        h5{
+            color: $order_btn;
+        }
+    }
+}
+#webform-node-90, #webform-node-89{
     width: 410px;
     margin: 0 auto;
     padding-top: 10%;
@@ -512,14 +523,60 @@ body {
         }
         .form-actions {
             text-align: center;
-            .form-submit{
+            .form-submit {
                 @include mobit_btn($order_btn);
+            }
+            .ajax-progress{
+                display: none;
             }
         }
     }
 }
-.page-node-90{
-    .page_title{
-        display:none;
+
+.page-node-90,  
+.page-node-89  {
+    .page_title {
+        display: none;
+    }
+}
+
+#webform-node-89{
+    .webform-title{
+        font-size: 1.8em;
+    }
+}
+
+#webform-ajax-wrapper-89 {
+    .webform-confirmation {
+        background: #fff;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        h5 {
+            color: $order_btn;
+        }
+    }
+    .alert-danger{
+        display: none;
+    }
+    .links{
+        display: none;
+    }
+    .form-actions {
+        .ajax-progress {
+            display: none;
+            position: absolute;
+            top: 0;
+        }
+    }
+}
+
+
+#section-footer{
+    a{
+        color: #fff;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
