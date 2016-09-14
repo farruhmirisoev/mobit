@@ -13,6 +13,60 @@
     }
 }
 
+@media (max-width: 992px) {
+    #section-header {
+        .region-logo {
+            width: 30%;
+        }
+        .region-news3-second {
+            display: block;
+            float: right;
+        }
+        .region-menu {
+            width: 100%;
+        }
+        a.superhero-mobile-menu-toggle {
+            right: auto;
+            left: 15px;
+            top: 12px;
+            z-index: 2;
+            font-size: 33px;
+            border: none;
+            background: none;
+            display: block !important;
+        }
+        .superhero-dropdown {
+            top: 59px;
+            background: $base_blue;
+            li {
+                background: $base_blue;
+                a {
+                    color: #fff !important;
+                }
+            }
+        }
+        .region-news4-second {
+            width: 100%;
+            display: block;
+            background: $order_btn;
+        }
+        #block-block-62 {
+            margin-bottom: 0;
+            padding: 10px 0;
+            .content {
+                text-align: right;
+            }
+            .mobit_btn {
+                width: auto;
+                @include mobit_btn($base_blue);
+            }
+        }
+        .region-news2-second {
+            width: 45%;
+        }
+    }
+}
+
 @media (max-width: 960px) {
     #block-block-71,
     #block-block-70 {
@@ -29,9 +83,6 @@
 }
 
 @media (max-width: 767px) {
-    // body{
-    //  font-size: 12px;
-    // }
     .region-news3-second {
         display: none;
     }
@@ -76,7 +127,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 660px) {
     .region-bottom-first,
     .region-bottom-second {
         width: 100%;
@@ -88,12 +139,35 @@
             margin-bottom: 20px;
         }
     }
+    .region-news2-second {
+        display: none;
+    }
+    .region-news3-second {
+        width: 50%;
+    }
+    #section-header #block-block-61 .content {
+        text-align: right;
+        font-weight: bold;
+    }
+    #section-header {
+        .region-logo {
+            width: 50%;
+        }
+    }
+}
+
+@media (min-width: 561px) {
+    #block-md-slider-8,
+    #block-md-slider-9,
+    #block-md-slider-11 {
+        display: none;
+    }
 }
 
 @media (max-width: 560px) {
     #section-header {
         .region-logo {
-            width: 100%;
+            // width: 100%;
             // width: 160px;
         }
         .region-news2-second {
@@ -106,6 +180,72 @@
     #block-block-70 {
         h1 {
             font-size: 2em;
+        }
+    }
+    #block-md-slider-1 {
+        display: none;
+    }
+    #block-md-slider-8 {
+        display: block;
+        margin-top: 0;
+    }
+    #block-md-slider-9,
+    #block-md-slider-11 {
+        display: block;
+    }
+    #block-md-slider-9 {
+        margin-bottom: 8em;
+    }
+    #block-md-slider-5,
+    #block-md-slider-7 {
+        display: none;
+    }
+    #webform-node-90, #webform-node-89{
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 360px) {
+    #section-header {
+        .region-logo {
+            width: 50%;
+        }
+        .region-news3-second {
+            display: block;
+        }
+        a.superhero-mobile-menu-toggle {
+            right: auto;
+            left: 15px;
+            top: 12px;
+            z-index: 2;
+            font-size: 33px;
+            border: none;
+            background: none;
+        }
+        .superhero-dropdown {
+            bottom: 0px;
+            background: $base_blue;
+            li {
+                background: $base_blue;
+                a {
+                    color: #fff !important;
+                }
+            }
+        }
+        .region-news4-second {
+            display: block;
+            background: $order_btn;
+        }
+        #block-block-62 {
+            margin-bottom: 0;
+            padding: 10px 0;
+            .content {
+                text-align: right;
+            }
+            .mobit_btn {
+                width: auto;
+                @include mobit_btn($base_blue);
+            }
         }
     }
 }
