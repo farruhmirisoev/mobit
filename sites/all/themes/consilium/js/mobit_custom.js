@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a, #block-block-62 .content a').click(function() {
+    $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').click(function() {
         var linkHash = $(this).prop("hash");
         console.log(linkHash);
         scrollToMenu(linkHash);
