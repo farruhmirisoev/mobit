@@ -1,14 +1,16 @@
 jQuery(document).ready(function($) {
 
     // anchor scroll to block
-    $('.mobit_subject__item').eq(0).addClass('mobit_subject__item--active');
+    $('.mobit_subject__item').eq(0).addClass('mobit_subject__item--active');    
     $('#block-block-72 .mobit_subject__wrap').click(function() {
         var slide_index = $(this).index();
-        // if ($('#block-md-slider-1 .md-bullet').length <= slide_index) {
-        $('#block-md-slider-1 .md-bullets .md-bullet').eq(slide_index).click();
-        $('#block-block-72 .mobit_subject__item').removeClass('mobit_subject__item--active');
-        $(this).find('.mobit_subject__item').addClass('mobit_subject__item--active');
-        // }
+        
+        if ((slide_index+1) <= $('#block-md-slider-1 .md-bullet').length) {
+	        $('#block-md-slider-1 .md-bullets .md-bullet').eq(slide_index).click();
+	        $('#block-md-slider-8 .md-bullets .md-bullet').eq(slide_index).click();
+	        $('#block-block-72 .mobit_subject__item').removeClass('mobit_subject__item--active');
+	        $('#block-block-72 .mobit_subject__wrap').eq(slide_index).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+        }
         return false;
     });
 

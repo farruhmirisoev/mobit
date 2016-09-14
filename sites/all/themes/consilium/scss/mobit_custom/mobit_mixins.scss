@@ -2,6 +2,9 @@
 	display: inline-block;
 	font-size: 1.111em;
 	padding: .7em 2.8em;
+	@media (max-width: 992px){
+		padding: .5em 1.8em;
+	}
 	background-color:$bg_color;	
 	color: $text_color !important;
 	border-radius: 2em;	
