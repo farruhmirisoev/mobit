@@ -17,7 +17,7 @@
     #section-header {
         .region-logo {
             width: 30%;
-            a{
+            a {
                 line-height: 60px;
             }
         }
@@ -165,6 +165,12 @@
     #block-md-slider-11 {
         display: none;
     }
+    .ctrl_proccess__step--4-mobile{
+        display: none;
+    }
+    .ctrl_proccess__step--3{
+        display: block;
+    }
 }
 
 @media (max-width: 560px) {
@@ -203,8 +209,77 @@
     #block-md-slider-7 {
         display: none;
     }
-    #webform-node-90, #webform-node-89{
+    #webform-node-90,
+    #webform-node-89 {
         padding-top: 20%;
+    }
+    .ctrl_proccess{
+        padding-bottom: 20%;
+    }
+    .ctrl_proccess__step {
+        width: 100%;
+        position: relative;
+        padding-top: 108px;
+
+        &--1{
+            padding-right: 15px;
+        }
+        &--2,
+        &--4 {
+            padding-left: 15px;
+        }
+        &--1 {
+            padding-top: 62px;
+            .ctrl_proccess__title {
+                background: none;
+                height: auto;
+                padding: 20px;
+            }
+        }
+        &--4-mobile{
+            display: block;
+        }
+        &--3{
+            display: none;
+        }
+    }
+    .ctrl_proccess__img {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .ctrl_proccess__title {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 108px;
+        left: 0;
+        background: url(/sites/all/themes/consilium/images/arrowsupdown_mobile.png) no-repeat center 0;
+        text-align: center;
+        background-size: cover;
+        padding-top: 45px;
+        span {
+            width: 180px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .ctrl_proccess_step-order {
+        z-index: 3;
+        right: 43%;
+        width: 60px;
+        height: 60px;
+        line-height: 54px;
+        bottom: -32px;
+        border: 3px solid #fff;
+    }
+    .ctrl_proccess__step--arrow-right,
+    .ctrl_proccess__step--arrow-left {
+        display: none;
+    }
+    #block-block-73 .block-title {
+        margin-bottom: 1em;
     }
 }
 

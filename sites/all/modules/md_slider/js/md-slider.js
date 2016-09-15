@@ -578,6 +578,7 @@
 			if (slideItems[oIndex]) {
 				$('div.md-bullet:eq(' + oIndex + ')', buttons).removeClass('md-current');
                 $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');
+                $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active'); //mobit hardcode
 				removeTheCaptions(slideItems[oIndex]);
 				var fx = options.transitions;
 				//Generate random transition
@@ -635,6 +636,7 @@
 				runTransition(fx);
 				if(buttons)
 					$('div.md-bullet:eq(' + activeIndex + ')', buttons).addClass('md-current');
+                    $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active'); //mobit hard code
 				if(slideThumb)
 					$('a:eq(' + activeIndex + ')', slideThumb).addClass('md-current');
                 scollThumb();
