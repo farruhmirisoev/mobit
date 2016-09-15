@@ -2351,7 +2351,7 @@ a:not(.btn):hover, a:not(.btn).active-block {
 .mobit_btn__green {
   display: inline-block;
   font-size: 1.111em;
-  padding: 0.7em 2.8em;
+  padding: 0.5em 1.8em;
   background-color: #13ce8f;
   color: #fff !important;
   border-radius: 2em;
@@ -2386,7 +2386,7 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
 .button, button {
   display: inline-block;
   font-size: 1.111em;
-  padding: 0.7em 2.8em;
+  padding: 0.5em 1.8em;
   background-color: #0072c6;
   color: #fff !important;
   border-radius: 2em;
@@ -2422,7 +2422,11 @@ body {
   clear: left;
   float: left;
 }
+#section-header .site-logo a {
+  line-height: 80px;
+}
 #section-header #block-menu-menu-mobit-main-menu, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 {
+  padding-top: 10px;
   -webkit-transition: margin-bottom 0.7s ease 0s;
   -moz-transition: margin-bottom 0.7s ease 0s;
   -o-transition: margin-bottom 0.7s ease 0s;
@@ -2447,13 +2451,8 @@ body {
   font-weight: bold;
   font-size: 1.111em;
   text-transform: none;
-  line-height: 55px;
+  line-height: 1.3em;
   color: #0072c6;
-}
-@media (max-width: 1336px) {
-  #section-header #block-menu-menu-mobit-main-menu .menu li a, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
-    line-height: 45px;
-  }
 }
 #section-header #block-menu-menu-mobit-main-menu .menu li a.active, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a.active {
   color: #0072c6;
@@ -2472,7 +2471,7 @@ body {
   }
 }
 #section-header #block-block-60 {
-  padding-top: 40px;
+  padding-top: 30px;
   -webkit-transition: padding-top 0.7s ease 0s;
   -moz-transition: padding-top 0.7s ease 0s;
   -o-transition: padding-top 0.7s ease 0s;
@@ -2487,7 +2486,7 @@ body {
   }
 }
 #section-header #block-block-61 {
-  padding-top: 40px;
+  padding-top: 30px;
   -webkit-transition: padding-top 0.7s ease 0s;
   -moz-transition: padding-top 0.7s ease 0s;
   -o-transition: padding-top 0.7s ease 0s;
@@ -2505,7 +2504,7 @@ body {
   }
 }
 #section-header #block-block-62 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   -webkit-transition: margin-bottom 0.7s ease 0s;
   -moz-transition: margin-bottom 0.7s ease 0s;
   -o-transition: margin-bottom 0.7s ease 0s;
@@ -2513,9 +2512,6 @@ body {
 }
 #section-header #block-block-62 .content {
   text-align: center;
-}
-#section-header #block-block-62 .mobit_btn {
-  width: 100%;
 }
 #section-header.fixed-transition #block-block-60 {
   padding-top: 18px;
@@ -2887,7 +2883,7 @@ body {
 #webform-node-90 .webform-body .form-actions .form-submit, #webform-node-89 .webform-body .form-actions .form-submit {
   display: inline-block;
   font-size: 1.111em;
-  padding: 0.7em 2.8em;
+  padding: 0.5em 1.8em;
   background-color: #13ce8f;
   color: #fff !important;
   border-radius: 2em;
@@ -2964,6 +2960,9 @@ body {
   #section-header .region-logo {
     width: 30%;
   }
+  #section-header .region-logo a {
+    line-height: 60px;
+  }
   #section-header .region-news3-second {
     display: block;
     float: right;
@@ -2973,8 +2972,8 @@ body {
   }
   #section-header a.superhero-mobile-menu-toggle {
     right: auto;
-    left: 15px;
-    top: 12px;
+    left: 3px;
+    top: 20px;
     z-index: 2;
     font-size: 33px;
     border: none;
@@ -2982,7 +2981,7 @@ body {
     display: block !important;
   }
   #section-header .superhero-dropdown {
-    top: 59px;
+    top: 68px;
     background: #0072c6;
   }
   #section-header .superhero-dropdown li {
@@ -3007,7 +3006,7 @@ body {
     width: auto;
     display: inline-block;
     font-size: 1.111em;
-    padding: 0.7em 2.8em;
+    padding: 0.5em 1.8em;
     background-color: #0072c6;
     color: #fff !important;
     border-radius: 2em;
@@ -3150,8 +3149,8 @@ body {
   }
   #section-header a.superhero-mobile-menu-toggle {
     right: auto;
-    left: 15px;
-    top: 12px;
+    left: 3px;
+    top: 20px;
     z-index: 2;
     font-size: 33px;
     border: none;
@@ -3182,7 +3181,7 @@ body {
     width: auto;
     display: inline-block;
     font-size: 1.111em;
-    padding: 0.7em 2.8em;
+    padding: 0.5em 1.8em;
     background-color: #0072c6;
     color: #fff !important;
     border-radius: 2em;
