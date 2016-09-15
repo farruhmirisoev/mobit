@@ -11,10 +11,14 @@ body {
 }
 
 #section-header {
+    .site-logo a {
+        line-height: 80px;
+    }
     #block-menu-menu-mobit-main-menu,
     #block-superhero-dropdown-superhero-dropdown-block-2 {
         // padding: 13px 0px;
         // margin-bottom: 2em;
+        padding-top: 10px;
         @include transition(margin-bottom 0.7s ease 0s);
         .menu {
             padding: 0;
@@ -33,11 +37,11 @@ body {
                     font-weight: bold;
                     font-size: 1.111em;
                     text-transform: none;
-                    line-height: 55px;
+                    line-height: 1.3em;
                     color: $base_blue;
-                    @media (max-width: 1336px) {
-                        line-height: 45px;
-                    }
+                    // @media (max-width: 1336px) {
+                    //     line-height: 45px;
+                    // }
                     &.active {
                         color: $base_blue;
                     }
@@ -59,7 +63,8 @@ body {
         }
     }
     #block-block-60 {
-        padding-top: 40px;
+        // padding-top: 40px;
+        padding-top: 30px;
         @include transition(padding-top 0.7s ease 0s);
         .content {
             h6 {
@@ -71,7 +76,8 @@ body {
         }
     }
     #block-block-61 {
-        padding-top: 40px;
+        // padding-top: 40px;
+        padding-top: 30px;
         @include transition(padding-top 0.7s ease 0s);
         .content {
             text-align: center;
@@ -84,13 +90,13 @@ body {
         }
     }
     #block-block-62 {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         @include transition(margin-bottom 0.7s ease 0s);
         .content {
             text-align: center;
         }
         .mobit_btn {
-            width: 100%;
+            // width: 100%;
         }
     }
     &.fixed-transition {
