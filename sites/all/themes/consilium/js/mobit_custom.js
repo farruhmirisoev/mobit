@@ -1,7 +1,10 @@
 jQuery(document).ready(function($) {
 
     // anchor scroll to block
-    $('.mobit_subject__item').eq(0).addClass('mobit_subject__item--active');    
+    $('.mobit_subject__wrap').eq(0).find('.mobit_subject__item').addClass('mobit_subject__item--active');    
+    for (var i = 0; i < $('#block-md-slider-1 .md-bullets .md-bullet').length; i++) {
+    	$('.mobit_subject__wrap').eq(i).find('.mobit_subject__item').addClass('mobit_subject__item--attached');
+    }
     $('#block-block-72 .mobit_subject__wrap').click(function() {
         var slide_index = $(this).index();
         
