@@ -580,7 +580,7 @@
                 $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');
                 
                 /*=====  mobit hardcode / integration with custom paginator block======*/                
-                if(('parentElement' in buttons[0]) && buttons[0].parentElement.offsetParent.id == 'block-md-slider-1'){
+                if((0 in buttons) && ('parentElement' in buttons[0]) && buttons[0].parentElement.offsetParent.id == 'block-md-slider-1'){
                     $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');     
                 }  
                 /*=====  End mobit hardcode  ======*/
@@ -642,8 +642,8 @@
 				runTransition(fx);
 				if(buttons)
 					$('div.md-bullet:eq(' + activeIndex + ')', buttons).addClass('md-current');
-                /*=====  mobit hardcode / integration with custom paginator block======*/  
-                    if(('parentElement' in buttons[0]) && buttons[0].parentElement.offsetParent.id == 'block-md-slider-1'){                        
+                /*=====  mobit hardcode / integration with custom paginator block======*/                      
+                    if((0 in buttons) && ('parentElement' in buttons[0]) && (buttons[0].parentElement.offsetParent.id == 'block-md-slider-1' || buttons[0].parentElement.offsetParent.id == 'block-md-slider-8')){                        
                         $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active'); 
                     }
                 /*=====  end of mobit hardcode ======*/  

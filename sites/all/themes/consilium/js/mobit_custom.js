@@ -28,9 +28,10 @@ jQuery(document).ready(function($) {
         thislinkHash = $(this).find('a').prop('hash');
 
     }
-    $(window).resize(function(){
+    // $(window).resize(function(){
 
-	    if ($(this).width() > 600 && $('.ctrl_proccess__step--4-mobile').css('display') == 'block') {
+	    if ($(this).width() > 600 && $('.ctrl_proccess__step--4-mobile').css('display') == 'none') {
+	    	console.log(1);
 	        $step1 = $('.ctrl_proccess__step--1');
 	        $step2 = $('.ctrl_proccess__step--2');
 	        $step3 = $('.ctrl_proccess__step--3'); //actually it's 4th step, but in layout order
@@ -49,7 +50,7 @@ jQuery(document).ready(function($) {
 	        $arrowDown.css('background-position-y', '-9999px');
 
 	        $(window).scroll(function() {
-
+	        	console.log(1);
 	            if ($(this).scrollTop() >= ($step1.offset().top - $(window).height() / 2)) {
 	                $step1.fadeTo('slow', 1);
 	            }
@@ -76,7 +77,7 @@ jQuery(document).ready(function($) {
 
 	    }
     	
-    });
+    // });
 
 
 });
