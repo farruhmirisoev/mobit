@@ -52,12 +52,14 @@ z-index: 998 !important; font-size: 1.5em;
 }
 .md-layer-7-0-15 {
 z-index: 999 !important; text-align: center;
- font-size: 1.83333333333em;
+ font-size: 1.33333333333em;
 }
 .md-layer-7-1-0 {
 z-index: 2 !important;}
 .md-layer-7-1-1 {
 z-index: 2 !important; font-size: 2em;
+ font-weight: 700;
+ font-family: Arial;
 }
 .md-layer-7-1-2 {
 z-index: 2 !important; font-size: 1.5em;
@@ -106,12 +108,14 @@ z-index: 2 !important; font-size: 1.5em;
 }
 .md-layer-7-1-15 {
 z-index: 2 !important; text-align: center;
- font-size: 1.83333333333em;
+ font-size: 1.33333333333em;
 }
 .md-layer-7-2-0 {
 z-index: 2 !important;}
 .md-layer-7-2-1 {
 z-index: 2 !important; font-size: 2em;
+ font-weight: 700;
+ font-family: Arial;
 }
 .md-layer-7-2-2 {
 z-index: 2 !important; font-size: 1.5em;
@@ -160,5 +164,5 @@ z-index: 2 !important; font-size: 1.5em;
 }
 .md-layer-7-2-15 {
 z-index: 2 !important; text-align: center;
- font-size: 1.83333333333em;
+ font-size: 1.33333333333em;
 }

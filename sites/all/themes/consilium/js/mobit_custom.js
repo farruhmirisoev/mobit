@@ -16,9 +16,11 @@ jQuery(document).ready(function($) {
         }
         return false;
     });
-
+    $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').removeClass('active');
     $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').click(function() {
         var linkHash = $(this).prop("hash");
+        $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').removeClass('active-hash');
+        $(this).addClass('active-hash');
         console.log(linkHash);
         scrollToMenu(linkHash);
         return false;
@@ -98,7 +100,7 @@ Drupal.behaviors.mobit = {
         $(context).find('.webform-client-form').once(function() {
             $('.webform-client-form .form-item').each(function() {
                 formLabelText = $(this).find('label').hide().text();
-                $(this).find('input').attr('placeholder', formLabelText);
+                $(this).find('input').attr('placeholder', formLabelText.replace(/\*/g, ' '));
             });
             // remove btn class 
             $('.webform-client-form .form-submit').removeClass('btn');

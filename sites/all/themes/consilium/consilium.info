@@ -100,6 +100,7 @@ scss[] = style_rtl.scss
 scss[] = responsive.scss
 scss[] = portfolio.scss
 scss[] = bonus.scss
+scss[] = mobit_custom/mobit_fonts.scss
 scss[] = mobit_custom/mobit_mixins.scss
 scss[] = mobit_custom/mobit_colors.scss
 scss[] = mobit_custom/mobit_presets.scss
