@@ -2292,9 +2292,15 @@ label {
     font-size: 20px;
   }
 }
+@font-face {
+  font-family: 'Calibri1';
+  src: url('/sites/all/themes/consilium/fonts/Calibri.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/consilium/fonts/Calibri.woff') format('woff'), url('/sites/all/themes/consilium/fonts/Calibri.ttf') format('truetype'), url('/sites/all/themes/consilium/fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 h1, h2, h3, h4, h5, h6 {
   color: #050505;
-  font-family: calibri;
+  font-family: calibri, Calibri1;
 }
 h1 {
   font-size: 3.389em;
@@ -2343,7 +2349,7 @@ ul {
   padding-left: 0;
 }
 a:not(.btn).active {
-  color: #0072c6;
+  color: #086ec0;
 }
 a:not(.btn):hover, a:not(.btn).active-block {
   color: #13ce8f;
@@ -2380,14 +2386,14 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
   height: 37px;
   line-height: 37px;
   border: 1px solid #13ce8f;
-  font-family: calibri;
+  font-family: calibri, Calibri1;
   color: #050505;
 }
 .button, button {
   display: inline-block;
   font-size: 1.111em;
   padding: 0.5em 1.8em;
-  background-color: #0072c6;
+  background-color: #086ec0;
   color: #fff !important;
   border-radius: 2em;
   border: none;
@@ -2395,7 +2401,7 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
   text-decoration: none;
   outline: none;
   line-height: initial;
-  font-family: calibri;
+  font-family: calibri, Calibri1;
 }
 @media (max-width: 992px) {
   .button, button {
@@ -2403,17 +2409,17 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
   }
 }
 .button:hover, button:hover {
-  background: #005593 !important;
+  background: #06528f !important;
 }
 .button:active, button:active {
-  background: #0060a7;
+  background: #075da3;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
   transition: none;
 }
 body {
-  font-family: calibri, open_sanslight;
+  font-family: calibri, Calibri1;
   color: #050505;
   font-size: 18px;
   position: relative;
@@ -2424,6 +2430,9 @@ body {
 }
 #section-header .site-logo a {
   line-height: 80px;
+}
+#section-header .site-logo a img {
+  max-width: 80%;
 }
 #section-header #block-menu-menu-mobit-main-menu, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 {
   padding-top: 10px;
@@ -2446,23 +2455,21 @@ body {
   padding-left: 0;
 }
 #section-header #block-menu-menu-mobit-main-menu .menu li a, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
-  font-family: calibri;
+  font-family: calibri, Calibri1;
   padding: 0 6px;
   font-weight: bold;
-  font-size: 1.111em;
+  font-size: 1em;
   text-transform: none;
   line-height: 1.3em;
-  color: #0072c6;
-}
-#section-header #block-menu-menu-mobit-main-menu .menu li a.active, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a.active {
-  color: #0072c6;
+  color: #086ec0;
+  text-decoration: none !important;
 }
 @media (min-width: 993px) {
   #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown > ul, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown > ul {
     float: left;
   }
   #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown > ul > li > a.active, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown > ul > li > a.active {
-    color: #0072c6 !important;
+    color: #086ec0 !important;
   }
 }
 @media (max-width: 992px) {
@@ -2471,7 +2478,7 @@ body {
   }
 }
 #section-header #block-block-60 {
-  padding-top: 30px;
+  padding-top: 35px;
   -webkit-transition: padding-top 0.7s ease 0s;
   -moz-transition: padding-top 0.7s ease 0s;
   -o-transition: padding-top 0.7s ease 0s;
@@ -2486,7 +2493,7 @@ body {
   }
 }
 #section-header #block-block-61 {
-  padding-top: 30px;
+  padding-top: 33px;
   -webkit-transition: padding-top 0.7s ease 0s;
   -moz-transition: padding-top 0.7s ease 0s;
   -o-transition: padding-top 0.7s ease 0s;
@@ -2557,8 +2564,8 @@ body {
 }
 .mobit_aims__item {
   text-align: center;
-  border: 1px solid #13ce8f;
-  border-radius: 8px;
+  border: 2px solid #13ce8f;
+  border-radius: 5px;
   padding: 0 12%;
   min-height: 230px;
 }
@@ -2617,7 +2624,7 @@ body {
   font-size: 1.556em;
 }
 .per-quote__salary {
-  background: #0072c6;
+  background: #086ec0;
   color: #fff;
   padding: 0.5em 0;
   font-size: 1.556em;
@@ -2631,7 +2638,7 @@ body {
 }
 #section-tweets .region-tweet {
   margin: 0 15px;
-  font-family: calibri;
+  font-family: calibri, Calibri1;
 }
 #section-tweets .region-tweet h1, #section-tweets .region-tweet h2, #section-tweets .region-tweet h3, #section-tweets .region-tweet h4, #section-tweets .region-tweet h5, #section-tweets .region-tweet h6 {
   color: #fff;
@@ -2643,6 +2650,7 @@ body {
 #block-block-71 .block-title {
   color: #fff;
   font-weight: bold;
+  margin-bottom: 0;
 }
 #block-block-71 .content {
   color: #fff;
@@ -2690,19 +2698,22 @@ body {
   -o-transition: border-radius 0.3s ease-out 0s;
   transition: border-radius 0.3s ease-out 0s;
 }
+#section-feature .mobit_subject__item a {
+  display: block;
+  outline: none;
+  color: #086ec0;
+  text-decoration: underline;
+  cursor: default;
+}
 #section-feature .mobit_subject__item--attached:hover, #section-feature .mobit_subject__item--active {
   border-radius: 5px;
-  border: 2px solid #0072c6;
+  border: 2px solid #086ec0;
   padding: 10px;
   background: #fff;
   cursor: pointer;
 }
-#section-feature .mobit_subject__item a {
-  display: block;
-  outline: none;
-  color: #0072c6;
-  text-decoration: underline;
-  cursor: default;
+#section-feature .mobit_subject__item--attached:hover a, #section-feature .mobit_subject__item--active a {
+  text-decoration: none;
 }
 #section-feature .mobit_subject__img {
   width: 118px;
@@ -2710,7 +2721,7 @@ body {
   margin: 20px auto;
   text-align: center;
   line-height: 118px;
-  background: #0072c6;
+  background: #086ec0;
   border-radius: 100%;
 }
 @media (max-width: 1336px) {
@@ -2940,9 +2951,10 @@ body {
 }
 #section-footer a {
   color: #fff;
-}
-#section-footer a:hover {
   text-decoration: underline;
+}
+.md-objects .md-object, .md-objects .md-object a, .slider-item > div {
+  line-height: 1.3em;
 }
 @media (max-width: 1336px) {
   .container {
@@ -2957,6 +2969,12 @@ body {
   .mobit_btn {
     font-size: 1em;
   }
+  #section-header #block-block-60 {
+    padding-top: 37px;
+  }
+  #section-header #block-block-61 {
+    padding-top: 36px;
+  }
 }
 @media (max-width: 992px) {
   #section-header .region-logo {
@@ -2965,6 +2983,9 @@ body {
   #section-header .region-logo a {
     line-height: 60px;
   }
+  #section-header .region-logo a img {
+    max-width: 100%;
+  }
   #section-header .region-news3-second {
     display: block;
     float: right;
@@ -2972,30 +2993,16 @@ body {
   #section-header .region-menu {
     width: 100%;
   }
-  #section-header a.superhero-mobile-menu-toggle {
-    right: auto;
-    left: 3px;
-    top: 20px;
-    z-index: 2;
-    font-size: 33px;
-    border: none;
-    background: none;
-    display: block !important;
-  }
-  #section-header .superhero-dropdown {
-    top: 68px;
-    background: #0072c6;
-  }
-  #section-header .superhero-dropdown li {
-    background: #0072c6;
-  }
-  #section-header .superhero-dropdown li a {
-    color: #fff !important;
-  }
   #section-header .region-news4-second {
     width: 100%;
     display: block;
     background: #13ce8f;
+  }
+  #section-header #block-block-60 {
+    padding-top: 23px;
+  }
+  #section-header #block-block-61 {
+    padding-top: 22px;
   }
   #section-header #block-block-62 {
     margin-bottom: 0;
@@ -3009,7 +3016,7 @@ body {
     display: inline-block;
     font-size: 1.111em;
     padding: 0.5em 1.8em;
-    background-color: #0072c6;
+    background-color: #086ec0;
     color: #fff !important;
     border-radius: 2em;
     border: none;
@@ -3018,10 +3025,10 @@ body {
     outline: none;
   }
   #section-header #block-block-62 .mobit_btn:hover {
-    background: #005593 !important;
+    background: #06528f !important;
   }
   #section-header #block-block-62 .mobit_btn:active {
-    background: #0060a7;
+    background: #075da3;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
@@ -3029,6 +3036,29 @@ body {
   }
   #section-header .region-news2-second {
     width: 45%;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 {
+    padding-top: 0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 a.superhero-mobile-menu-toggle {
+    right: auto;
+    left: 3px;
+    top: 10px;
+    z-index: 2;
+    font-size: 33px;
+    border: none;
+    background: none;
+    display: block !important;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown {
+    top: 58px;
+    background: #086ec0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown li {
+    background: #086ec0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown li a {
+    color: #fff !important;
   }
 }
 @media (max-width: 992px) and (max-width: 992px) {
@@ -3229,10 +3259,10 @@ body {
   }
   #section-header .superhero-dropdown {
     bottom: 0px;
-    background: #0072c6;
+    background: #086ec0;
   }
   #section-header .superhero-dropdown li {
-    background: #0072c6;
+    background: #086ec0;
   }
   #section-header .superhero-dropdown li a {
     color: #fff !important;
@@ -3253,7 +3283,7 @@ body {
     display: inline-block;
     font-size: 1.111em;
     padding: 0.5em 1.8em;
-    background-color: #0072c6;
+    background-color: #086ec0;
     color: #fff !important;
     border-radius: 2em;
     border: none;
@@ -3262,10 +3292,10 @@ body {
     outline: none;
   }
   #section-header #block-block-62 .mobit_btn:hover {
-    background: #005593 !important;
+    background: #06528f !important;
   }
   #section-header #block-block-62 .mobit_btn:active {
-    background: #0060a7;
+    background: #075da3;
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;

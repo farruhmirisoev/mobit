@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
     color: $base_black;
-    font-family: calibri;
+    font-family: calibri, Calibri1;    
 }
 
 h1 {
@@ -96,7 +96,7 @@ form input[type="color"] {
     height: 37px;
     line-height: 37px;
     border: 1px solid $order_btn;
-    font-family: calibri;
+    font-family: calibri, Calibri1;
     color: $base_black;
 }
 
@@ -104,5 +104,5 @@ form input[type="color"] {
 button {
     @include mobit_btn($base_blue);
     line-height: initial;
-    font-family: calibri;
+    font-family: calibri, Calibri1;
 }
