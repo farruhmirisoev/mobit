@@ -576,7 +576,7 @@
             }
         }
 
-        function slide(index) {
+        function slide(index) {            
             step = 0;
             slideShowDelay = slideItems[index].data("timeout") ? slideItems[index].data("timeout") : options.slideShowDelay;
             if (loadingBar) {
@@ -584,20 +584,21 @@
                 loadingBar.width(width);
                 timerGlow.css({ left: width - 100 + 'px' });
             }
-            oIndex = activeIndex;
+            oIndex = activeIndex;            
             activeIndex = index;
             options.onStartTransition.call(self);
             if (slideItems[oIndex]) {
                 $('div.md-bullet:eq(' + oIndex + ')', buttons).removeClass('md-current');
-                $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');
-
+                $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');                
                 /*=====  mobit hardcode / integration with custom paginator block======*/
+                
                 if (0 in buttons) {
                     if ('parentElement' in buttons[0]) {
                         if ('offsetParent' in buttons[0].parentElement &&  buttons[0].parentElement.offsetParent != null) {
                             if ('id' in buttons[0].parentElement.offsetParent ) {
                                 if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-1' && $('#block-md-slider-1').css('display') != 'none') {
                                     $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');
+                                    
                                 } else {                                    
                                     if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-8' && $('#block-md-slider-8').css('display') != 'none') {
                                         $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');
@@ -606,6 +607,22 @@
                             }
                         }
                     }
+                    if ('offsetParent' in buttons[0] && buttons[0].offsetParent != null) {
+                        if ('parentElement' in buttons[0].offsetParent &&  buttons[0].offsetParent.parentElement != null) {
+                            if ('parentElement' in buttons[0].offsetParent.parentElement && buttons[0].offsetParent.parentElement.parentElement != null) {
+                                if ('id' in buttons[0].offsetParent.parentElement.parentElement) {
+                                    if (buttons[0].offsetParent.parentElement.parentElement.id == 'block-md-slider-1' && $('#block-md-slider-1').css('display') != 'none') {                                         
+                                         $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');                                         
+                                    } else {                                    
+                                        if (buttons[0].offsetParent.parentElement.parentElement.id == 'block-md-slider-8' && $('#block-md-slider-8').css('display') != 'none') {                                             
+                                            $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } 
+
                 }
                 /*=====  End mobit hardcode  ======*/
 
@@ -666,24 +683,39 @@
                 runTransition(fx);
                 if (buttons)
                     $('div.md-bullet:eq(' + activeIndex + ')', buttons).addClass('md-current');
-                
-                /*=====  mobit hardcode / integration with custom paginator block======*/ 
-                if (0 in buttons) {
-                    if ('parentElement' in buttons[0]) {
-                        if ('offsetParent' in buttons[0].parentElement &&  buttons[0].parentElement.offsetParent != null) {
-                            if ('id' in buttons[0].parentElement.offsetParent) {
-                                if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-1' && $('#block-md-slider-1').css('display') != 'none') {
-                                     $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
-                                } else {                                    
-                                    if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-8' && $('#block-md-slider-8').css('display') != 'none') {
+                    
+                    /*=====  mobit hardcode / integration with custom paginator block======*/ 
+                    if (0 in buttons) {                        
+                        if ('parentElement' in buttons[0]) {
+                            if ('offsetParent' in buttons[0].parentElement &&  buttons[0].parentElement.offsetParent != null) {
+                                if ('id' in buttons[0].parentElement.offsetParent) {
+                                    if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-1' && $('#block-md-slider-1').css('display') != 'none') {
                                          $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+                                    } else {                                    
+                                        if (buttons[0].parentElement.offsetParent.id == 'block-md-slider-8' && $('#block-md-slider-8').css('display') != 'none') {
+                                             $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+                                        }
                                     }
                                 }
                             }
                         }
+                        if ('offsetParent' in buttons[0] && buttons[0].offsetParent != null) {
+                            if ('parentElement' in buttons[0].offsetParent &&  buttons[0].offsetParent.parentElement != null) {
+                                if ('parentElement' in buttons[0].offsetParent.parentElement && buttons[0].offsetParent.parentElement.parentElement != null) {
+                                    if ('id' in buttons[0].offsetParent.parentElement.parentElement) {
+                                        if (buttons[0].offsetParent.parentElement.parentElement.id == 'block-md-slider-1' && $('#block-md-slider-1').css('display') != 'none') {
+                                             $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+                                        } else {                                    
+                                            if (buttons[0].offsetParent.parentElement.parentElement.id == 'block-md-slider-8' && $('#block-md-slider-8').css('display') != 'none') {
+                                                 $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }                          
                     }
-                }
-                /*=====  end of mobit hardcode ======*/
+                    /*=====  end of mobit hardcode ======*/
                 if (slideThumb)
                     $('a:eq(' + activeIndex + ')', slideThumb).addClass('md-current');
                 scollThumb();
