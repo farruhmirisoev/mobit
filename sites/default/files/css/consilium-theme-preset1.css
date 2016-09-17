@@ -2464,6 +2464,9 @@ body {
   color: #086ec0;
   text-decoration: none !important;
 }
+#section-header #block-menu-menu-mobit-main-menu .menu li a.active-hash, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a.active-hash {
+  color: #13ce8f !important;
+}
 @media (min-width: 993px) {
   #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown > ul, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown > ul {
     float: left;
