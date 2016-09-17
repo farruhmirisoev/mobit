@@ -1,5 +1,7 @@
 jQuery(document).ready(function($) {
 
+    $(document).on("scroll", onScroll);
+
     //paginator=====================
     $('.mobit_subject__wrap').eq(0).find('.mobit_subject__item').addClass('mobit_subject__item--active');
     for (var i = 0; i < $('#block-md-slider-1 .md-bullets .md-bullet').length; i++) {
@@ -17,7 +19,7 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    // anchor scroll to block================
+      // anchor scroll to block================
     $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').removeClass('active');
     $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu a').click(function() {
         var linkHash = $(this).prop("hash");
@@ -37,29 +39,27 @@ jQuery(document).ready(function($) {
             'offsetBottom': $(thislinkHash).outerHeight() + $(thislinkHash).offset().top - stickyHeaderHeight()
         }
     }
-    console.log(blockWayPointMap);
-
-    $(window).scroll(function() {
-        var activeAnchor = false;
-        for (var linkIndex in blockWayPointMap) {
-            if ($(this).scrollTop() >= blockWayPointMap[linkIndex].offsetTop && $(this).scrollTop() <= blockWayPointMap[linkIndex].offsetBottom) {
-                mainMenuItemList.each(function() {
-                    $(this).find('a').removeClass('active-hash');
-                });
-                mainMenuItemList.eq(linkIndex).find('a').addClass('active-hash');
-                activeAnchor =  true;
-                break;
-            }
-        }
-        if (!activeAnchor) {
-            mainMenuItemList.each(function() {
-                $(this).find('a').removeClass('active-hash');
-            });
-        }
-    });
 
 
-
+    // $(window).scroll(function() {
+    //     var activeAnchor = false;
+    //     for (var linkIndex in blockWayPointMap) {
+    //         if ($(this).scrollTop() >= blockWayPointMap[linkIndex].offsetTop && $(this).scrollTop() < blockWayPointMap[linkIndex].offsetBottom) {
+    //             mainMenuItemList.each(function() {
+    //                 $(this).find('a').removeClass('active-hash');
+    //             });
+    //             mainMenuItemList.eq(linkIndex).find('a').addClass('active-hash');
+    //             activeAnchor =  true;
+    //             break;
+    //         }
+    //         console.log($(this).scrollTop()+' | '+blockWayPointMap[linkIndex].offsetTop+' | '+blockWayPointMap[linkIndex].offsetBottom);
+    //     }
+    //     if (!activeAnchor) {
+    //         mainMenuItemList.each(function() {
+    //             $(this).find('a').removeClass('active-hash');
+    //         });
+    //     }
+    // });
 
     //block step by step apearance==================
 
@@ -111,6 +111,21 @@ jQuery(document).ready(function($) {
 
 });
 
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li').each(function () {
+        var currLink = $(this).find('a');
+        var refElement = $(currLink.prop('hash'));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li a').removeClass("active-hash");
+            currLink.addClass("active-hash");
+        }
+        else{
+            currLink.removeClass("active-hash");
+        }
+    });
+}
+
 function scrollToMenu(dest) {
     $('html, body').animate({
         scrollTop: $(dest).offset().top - stickyHeaderHeight(),
@@ -133,7 +148,7 @@ Drupal.behaviors.mobit = {
                 formLabelText = $(this).find('label').hide().text();
                 $(this).find('input').attr('placeholder', formLabelText.replace(/\*/g, ' '));
             });
-            // remove btn class 
+            // remove btn class
             $('.webform-client-form .form-submit').removeClass('btn');
 
         });
