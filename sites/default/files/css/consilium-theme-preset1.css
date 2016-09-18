@@ -2979,6 +2979,11 @@ body {
     padding-top: 36px;
   }
 }
+@media (min-width: 993px) {
+  #section-header #block-menu-menu-mobit-main-menu .superhero-dropdown > ul > li > a.active, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown > ul > li > a.active-hash {
+    color: #13ce8f !important;
+  }
+}
 @media (max-width: 992px) {
   #section-header .region-logo {
     width: 30%;
@@ -3070,10 +3075,10 @@ body {
   }
 }
 @media (max-width: 960px) {
-  #block-block-71, #block-block-70 {
+  #block-block-70, #block-block-71 {
     text-align: center;
   }
-  #block-webform-client-block-89 .form-item, #block-webform-client-block-89 .form-actions {
+  #block-webform-client-block-89 .form-actions, #block-webform-client-block-89 .form-item {
     display: block;
     margin: 1em auto;
     text-align: center;
@@ -3141,7 +3146,7 @@ body {
   }
 }
 @media (min-width: 561px) {
-  #block-md-slider-8, #block-md-slider-9, #block-md-slider-11 {
+  #block-md-slider-11, #block-md-slider-8, #block-md-slider-9 {
     display: none;
   }
   .ctrl_proccess__step--4-mobile {
@@ -3168,7 +3173,7 @@ body {
     display: block;
     margin-top: 0;
   }
-  #block-md-slider-9, #block-md-slider-11 {
+  #block-md-slider-11, #block-md-slider-9 {
     display: block;
   }
   #block-md-slider-9 {
@@ -3177,7 +3182,7 @@ body {
   #block-md-slider-5, #block-md-slider-7 {
     display: none;
   }
-  #webform-node-90, #webform-node-89 {
+  #webform-node-89, #webform-node-90 {
     padding-top: 20%;
   }
   .ctrl_proccess {
@@ -3218,7 +3223,7 @@ body {
     width: 100%;
     height: 108px;
     left: 0;
-    background: url(/sites/all/themes/consilium/images/arrowsupdown_mobile.png) no-repeat center 0;
+    background: url("/sites/all/themes/consilium/images/arrowsupdown_mobile.png") no-repeat center 0;
     text-align: center;
     background-size: cover;
     padding-top: 45px;
@@ -3237,7 +3242,7 @@ body {
     bottom: -32px;
     border: 3px solid #fff;
   }
-  .ctrl_proccess__step--arrow-right, .ctrl_proccess__step--arrow-left {
+  .ctrl_proccess__step--arrow-left, .ctrl_proccess__step--arrow-right {
     display: none;
   }
   #block-block-73 .block-title {
@@ -3261,7 +3266,7 @@ body {
     background: none;
   }
   #section-header .superhero-dropdown {
-    bottom: 0px;
+    bottom: 0;
     background: #086ec0;
   }
   #section-header .superhero-dropdown li {
