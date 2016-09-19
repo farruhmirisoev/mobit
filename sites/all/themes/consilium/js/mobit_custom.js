@@ -100,8 +100,10 @@ jQuery(document).ready(function($) {
         $step4.css('opacity', 0);
         $arrowRight.css('opacity', 0);
         $arrowLeft.css('opacity', 0);
-        $arrowUp.css('background-position-y', '-9999px');
-        $arrowDown.css('background-position-y', '-9999px');
+        $arrowUpBgStyle = $arrowUp.css('background');
+        $arrowUp.css('background','none');
+        $arrowDownBgStyle = $arrowDown.css('background');
+        $arrowDown.css('background','none');
 
         $(window).scroll(function() {
 
@@ -114,13 +116,13 @@ jQuery(document).ready(function($) {
             }
 
             if ($(this).scrollTop() >= ($step3.offset().top - $(window).height() / 2)) {
-                $arrowDown.css('background-position-y', 'bottom');
+                $arrowDown.css('background', $arrowDownBgStyle);
                 $step4.fadeTo('slow', 1);
             }
             if ($(this).scrollTop() >= ($step4.offset().top - $(window).height() / 2 + 100)) {
                 $arrowLeft.fadeTo('slow', 1);
                 $step3.fadeTo('slow', 1);
-                $arrowUp.css('background-position-y', 'top');
+                $arrowUp.css('background', $arrowUpBgStyle);
             }
 
         });
