@@ -590,7 +590,7 @@
             if (slideItems[oIndex]) {
                 $('div.md-bullet:eq(' + oIndex + ')', buttons).removeClass('md-current');
                 $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');
-                
+
                 /*=====  mobit hardcode / integration with custom paginator block======*/
                 if((self.selector == '#md-slider-1-block' && $('#md-slider-1-block').parents('.block-md-slider').css('display') != 'none') || (self.selector == '#md-slider-8-block' && $('#md-slider-8-block').parents('.block-md-slider').css('display') != 'none')){
                   $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');
@@ -720,7 +720,8 @@
         function endMoveCaption(caption) {
             clearTimeout(caption.data('timer-start'));
             if ($.browser.msie && parseInt($.browser.version) <= 9) {
-                caption.fadeOut();
+                // caption.fadeOut();
+                caption.hide();
             } else {
                 caption.removeClass(effectsIn.join(' '));
                 var easeout = caption.data("easeout");
@@ -758,7 +759,8 @@
                 if (caption.data("start") != undefined) {
                     caption.data('timer-start', setTimeout(function() {
                         if (easein == "" || ($.browser.msie && parseInt($.browser.version) <= 9)) {
-                            caption.fadeIn();
+                            // caption.fadeIn();
+                            caption.show();
                         } else {
                             caption.show().addClass(easein);
                         }
