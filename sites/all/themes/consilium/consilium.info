@@ -112,6 +112,7 @@ scss[] = mobit_custom/mobit_grid.scss
 scripts[] = js/modernizr.min.js
 scripts[] = js/jquery.hoverdir.js
 scripts[] = js/consilium.js
+scripts[] = plugins/bxslider/jquery.bxslider.min.js
 scripts[] = js/mobit_custom.js
 
 ; Settings
