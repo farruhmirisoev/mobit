@@ -652,6 +652,55 @@ body {
     }
 }
 
+
+
+#webform-node-97{
+    max-width: 455px;
+    margin: 0 auto;
+    .webform-title{
+      font-size: 2em;
+      max-width: 270px;
+      text-align: center;
+      margin:15% auto 1em auto;
+    }
+  .form-actions{
+    text-align: center;
+    .form-submit{
+      @include mobit_btn();
+    }
+    .ajax-progress {
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+  }
+  .alert-danger{
+    display: none;
+  }
+  .links{
+    display: none;
+  }
+}
+
+.webform-component--wf-solution{
+  &-object-auditor{
+    display: block;
+  }
+  &-object-count{
+    display: block;
+  }
+  &-manager-count{
+    display: block;
+  }
+  &-analytic-count{
+    display: block;
+  }
+}
+label[for='edit-submitted-wf-solution-purpose']{
+  font-size: 1.222em;
+  color: $base_black;
+}
+
 #section-footer {
     a {
         color: #fff;

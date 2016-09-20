@@ -2351,7 +2351,7 @@ ul {
 a:not(.btn).active {
   color: #086ec0;
 }
-a:not(.btn):hover, a:not(.btn).active-block {
+a:not(.btn).active-block, a:not(.btn):hover {
   color: #13ce8f;
 }
 .mobit_btn__green {
@@ -2381,13 +2381,27 @@ a:not(.btn):hover, a:not(.btn).active-block {
   -o-transition: none;
   transition: none;
 }
-form input[type="text"], form input[type="password"], form input[type="datetime"], form input[type="datetime-local"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="week"], form input[type="number"], form input[type="email"], form input[type="url"], form input[type="search"], form input[type="tel"], form input[type="color"] {
+form input[type="color"], form input[type="date"], form input[type="datetime"], form input[type="datetime-local"], form input[type="email"], form input[type="month"], form input[type="number"], form input[type="password"], form input[type="search"], form input[type="tel"], form input[type="text"], form input[type="time"], form input[type="url"], form input[type="week"] {
   border-radius: 3px;
   height: 37px;
   line-height: 37px;
   border: 1px solid #13ce8f;
   font-family: calibri, Calibri1;
   color: #050505;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  width: 100%;
+}
+input[type=checkbox], input[type=radio] {
+  margin-top: 8px;
+}
+.checkbox, .radio {
+  margin: 0;
+}
+label {
+  font-family: calibri, Calibri1;
+  display: block;
+  color: #898888;
 }
 .button, button {
   display: inline-block;
@@ -2417,6 +2431,13 @@ form input[type="text"], form input[type="password"], form input[type="datetime"
   -moz-transition: none;
   -o-transition: none;
   transition: none;
+}
+.webform-component-checkboxes .form-checkboxes .form-type-checkbox {
+  display: block;
+}
+.webform-title {
+  color: #13ce8f;
+  font-weight: bold;
 }
 body {
   font-family: calibri, Calibri1;
@@ -2948,6 +2969,73 @@ body {
   display: none;
   position: absolute;
   top: 0;
+}
+#webform-node-97 {
+  max-width: 455px;
+  margin: 0 auto;
+}
+#webform-node-97 .webform-title {
+  font-size: 2em;
+  max-width: 270px;
+  text-align: center;
+  margin: 15% auto 1em auto;
+}
+#webform-node-97 .form-actions {
+  text-align: center;
+}
+#webform-node-97 .form-actions .form-submit {
+  display: inline-block;
+  font-size: 1.111em;
+  padding: 0.5em 1.8em;
+  background-color: #13ce8f;
+  color: #fff !important;
+  border-radius: 2em;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+}
+@media (max-width: 992px) {
+  #webform-node-97 .form-actions .form-submit {
+    padding: 0.5em 1.8em;
+  }
+}
+#webform-node-97 .form-actions .form-submit:hover {
+  background: #0f9f6f !important;
+}
+#webform-node-97 .form-actions .form-submit:active {
+  background: #10b27c;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#webform-node-97 .form-actions .ajax-progress {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+#webform-node-97 .alert-danger {
+  display: none;
+}
+#webform-node-97 .links {
+  display: none;
+}
+.webform-component--wf-solution-object-auditor {
+  display: block;
+}
+.webform-component--wf-solution-object-count {
+  display: block;
+}
+.webform-component--wf-solution-manager-count {
+  display: block;
+}
+.webform-component--wf-solution-analytic-count {
+  display: block;
+}
+label[for='edit-submitted-wf-solution-purpose'] {
+  font-size: 1.222em;
+  color: #050505;
 }
 #section-footer a {
   color: #fff;
