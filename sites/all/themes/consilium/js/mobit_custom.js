@@ -89,79 +89,87 @@ jQuery(document).ready(function($) {
 
     //block step by step apearance=====END=============
 
+    if ($('#block-views-view-middle-slider-block').length > 0) {
+        var middle_slider_1 = $('#block-views-view-middle-slider-block .middle-slider').bxSlider({
+            minSlides: 1,
+            maxSlides: 1,
+            auto: true,
+            pause: 7000,
+            nextText: '&#xf061;',
+            prevText: '&#xf060;',
+            autoHover: true,
+            pager: true,
+            controls: false,
+            adaptiveHeight: true,
+            mode: 'horizontal',
+        });
+        $(window).resize(function() {
+            middle_slider_1.reloadSlider({
+                minSlides: 1,
+                maxSlides: 1,
+                auto: true,
+                pause: 7000,
+                nextText: '&#xf061;',
+                prevText: '&#xf060;',
+                autoHover: true,
+                pager: true,
+                controls: false,
+                adaptiveHeight: true,
+                mode: 'horizontal',
+            });
+        });
+    }
 
-    var middle_slider_1 = $('#block-views-view-middle-slider-block .middle-slider').bxSlider({
-        minSlides: 1,
-        maxSlides: 1,
-        auto: true,
-        pause: 7000,
-        nextText: '&#xf061;',
-        prevText: '&#xf060;',
-        autoHover: true,
-        pager: true,
-        controls:false,
-        adaptiveHeight:true,
-        mode: 'horizontal',
-    });
+    if ($('#block-views-view-middle-slider-block-1').length > 0) {
+        var middle_slider_2 = $('#block-views-view-middle-slider-block-1 .middle-slider').bxSlider({
+            minSlides: 1,
+            maxSlides: 1,
+            auto: true,
+            pause: 8000,
+            nextText: '&#xf061;',
+            prevText: '&#xf060;',
+            autoHover: true,
+            pager: true,
+            controls: false,
+            adaptiveHeight: true,
+            mode: 'horizontal',
+        });
+        $(window).resize(function() {
+              middle_slider_2.reloadSlider({
+                minSlides: 1,
+                maxSlides: 1,
+                auto: true,
+                pause: 8000,
+                nextText: '&#xf061;',
+                prevText: '&#xf060;',
+                autoHover: true,
+                pager: true,
+                controls: false,
+                adaptiveHeight: true,
+                mode: 'horizontal',
+            });
 
-    var middle_slider_2 = $('#block-views-view-middle-slider-block-1 .middle-slider').bxSlider({
-        minSlides: 1,
-        maxSlides: 1,
-        auto: true,
-        pause: 8000,
-        nextText: '&#xf061;',
-        prevText: '&#xf060;',
-        autoHover: true,
-        pager: true,
-        controls:false,
-        adaptiveHeight:true,
-        mode: 'horizontal',
-    });
+        });
 
-    $(window).resize(function(){
-      middle_slider_1.reloadSlider({
-        minSlides: 1,
-        maxSlides: 1,
-        auto: true,
-        pause: 7000,
-        nextText: '&#xf061;',
-        prevText: '&#xf060;',
-        autoHover: true,
-        pager: true,
-        controls:false,
-        adaptiveHeight:true,
-        mode: 'horizontal',
-      });
-      middle_slider_2.reloadSlider({
-        minSlides: 1,
-        maxSlides: 1,
-        auto: true,
-        pause: 8000,
-        nextText: '&#xf061;',
-        prevText: '&#xf060;',
-        autoHover: true,
-        pager: true,
-        controls:false,
-        adaptiveHeight:true,
-        mode: 'horizontal',
-      });
-
-    });
+    }
 
 });
 
 function onScroll(event) {
-    var scrollPos = $(document).scrollTop();
-    $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li').each(function() {
-        var currLink = $(this).find('a');
-        var refElement = $(currLink.prop('hash'));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li a').removeClass("active-hash");
-            currLink.addClass("active-hash");
-        } else {
-            currLink.removeClass("active-hash");
-        }
-    });
+    // var scrollPos = $(document).scrollTop();
+    // if ($('#block-superhero-dropdown-superhero-dropdown-block-2').length > 0) {
+    //     $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li').each(function() {
+    //         var currLink = $(this).find('a');
+    //         var refElement = $(currLink.prop('hash'));
+    //         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+    //             $('#block-superhero-dropdown-superhero-dropdown-block-2 .menu li a').removeClass("active-hash");
+    //             currLink.addClass("active-hash");
+    //         } else {
+    //             currLink.removeClass("active-hash");
+    //         }
+    //     });
+    // }
+
 }
 
 function scrollToMenu(dest) {
@@ -182,12 +190,12 @@ Drupal.behaviors.mobit = {
     attach: function(context, settings) {
 
         $(context).find('.webform-client-form').once(function() {
-            $('.webform-client-form .form-item').each(function() {
+            $('.webform-client-form .form-item.webform-component-textfield:not(.webform-component--wf-solution-object-count):not(.webform-component--wf-solution-auditor-count):not(.webform-component--wf-solution-manager-count):not(.webform-component--wf-solution-analytic-count), .webform-client-form .form-item.webform-component-email').each(function() {
                 formLabelText = $(this).find('label').hide().text();
                 $(this).find('input').attr('placeholder', formLabelText.replace(/\*/g, ' '));
             });
             // remove btn class
-            $('.webform-client-form .form-submit').removeClass('btn');
+            $('.webform-client-form .form-submit').removeClass('btn button-primary btn-primary');
 
         });
     }

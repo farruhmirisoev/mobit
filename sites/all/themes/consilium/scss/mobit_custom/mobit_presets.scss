@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
     color: $base_black;
-    font-family: calibri, Calibri1;    
+    font-family: calibri, Calibri1;
 }
 
 h1 {
@@ -31,28 +31,33 @@ h5 {
 h6 {
     font-size: 1.111em;
 }
+
 .block h3.block-title {
     text-transform: none;
     font-size: 2.1em;
     margin-bottom: 30px;
 }
-
 @media (max-width: 780px) {
     h1 {
         font-size: 2.889em;
     }
+
     h2 {
         font-size: 2.1em;
     }
+
     h3 {
         font-size: 1.333em;
     }
+
     h4 {
         font-size: 1.222em;
     }
+
     h5 {
         font-size: 1.111em;
     }
+
     .block h3.block-title {
         font-size: 1.333em;
     }
@@ -66,8 +71,9 @@ a:not(.btn) {
     &.active {
         color: $base_blue;
     }
-    &:hover,
-    &.active-block {
+
+    &.active-block,
+    &:hover {
         color: $order_btn;
     }
 }
@@ -78,26 +84,45 @@ a:not(.btn) {
     }
 }
 
-form input[type="text"],
-form input[type="password"],
+form input[type="color"],
+form input[type="date"],
 form input[type="datetime"],
 form input[type="datetime-local"],
-form input[type="date"],
-form input[type="month"],
-form input[type="time"],
-form input[type="week"],
-form input[type="number"],
 form input[type="email"],
-form input[type="url"],
+form input[type="month"],
+form input[type="number"],
+form input[type="password"],
 form input[type="search"],
 form input[type="tel"],
-form input[type="color"] {
+form input[type="text"],
+form input[type="time"],
+form input[type="url"],
+form input[type="week"] {
     border-radius: 3px;
     height: 37px;
     line-height: 37px;
     border: 1px solid $order_btn;
     font-family: calibri, Calibri1;
     color: $base_black;
+    border: 1px solid $gray_border;
+    background: #fff;
+    width: 100%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-top: 8px;
+}
+
+.checkbox,
+.radio {
+    margin: 0;
+}
+
+label {
+    font-family: calibri, Calibri1;
+    display: block;
+    color: $gray_text;
 }
 
 .button,
@@ -105,4 +130,17 @@ button {
     @include mobit_btn($base_blue);
     line-height: initial;
     font-family: calibri, Calibri1;
+}
+
+.webform-component-checkboxes {
+    .form-checkboxes {
+        .form-type-checkbox {
+            display: block;
+        }
+    }
+}
+
+.webform-title {
+    color: $order_btn;
+    font-weight: bold;
 }
