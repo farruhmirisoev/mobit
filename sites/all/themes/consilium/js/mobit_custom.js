@@ -65,19 +65,19 @@ jQuery(document).ready(function($) {
 
         $(window).scroll(function() {
 
-            if ($(this).scrollTop() >= ($step1.offset().top - $(window).height() / 3)) {
+            if ($(this).scrollTop() >= ($step1.offset().top - $(window).height() / 2.5)) {
                 $step1.fadeTo('slow', 1);
             }
-            if ($(this).scrollTop() >= ($arrowRight.offset().top - $(window).height() / 3 + 100)) {
+            if ($(this).scrollTop() >= ($arrowRight.offset().top - $(window).height() / 2.5 + 100)) {
                 $arrowRight.fadeTo('slow', 1);
                 $step2.fadeTo('slow', 1);
             }
 
-            if ($(this).scrollTop() >= ($step3.offset().top - $(window).height() / 3)) {
+            if ($(this).scrollTop() >= ($step3.offset().top - $(window).height() / 2.5)) {
                 $arrowDown.css('background', $arrowDownBgStyle);
                 $step4.fadeTo('slow', 1);
             }
-            if ($(this).scrollTop() >= ($step4.offset().top - $(window).height() / 3 + 100)) {
+            if ($(this).scrollTop() >= ($step4.offset().top - $(window).height() / 2.5 + 100)) {
                 $arrowLeft.fadeTo('slow', 1);
                 $step3.fadeTo('slow', 1);
                 $arrowUp.css('background', $arrowUpBgStyle);
