@@ -65,19 +65,19 @@ jQuery(document).ready(function($) {
 
         $(window).scroll(function() {
 
-            if ($(this).scrollTop() >= ($step1.offset().top - $(window).height() / 2)) {
+            if ($(this).scrollTop() >= ($step1.offset().top - $(window).height() / 3)) {
                 $step1.fadeTo('slow', 1);
             }
-            if ($(this).scrollTop() >= ($arrowRight.offset().top - $(window).height() / 2 + 100)) {
+            if ($(this).scrollTop() >= ($arrowRight.offset().top - $(window).height() / 3 + 100)) {
                 $arrowRight.fadeTo('slow', 1);
                 $step2.fadeTo('slow', 1);
             }
 
-            if ($(this).scrollTop() >= ($step3.offset().top - $(window).height() / 2)) {
+            if ($(this).scrollTop() >= ($step3.offset().top - $(window).height() / 3)) {
                 $arrowDown.css('background', $arrowDownBgStyle);
                 $step4.fadeTo('slow', 1);
             }
-            if ($(this).scrollTop() >= ($step4.offset().top - $(window).height() / 2 + 100)) {
+            if ($(this).scrollTop() >= ($step4.offset().top - $(window).height() / 3 + 100)) {
                 $arrowLeft.fadeTo('slow', 1);
                 $step3.fadeTo('slow', 1);
                 $arrowUp.css('background', $arrowUpBgStyle);
@@ -190,7 +190,7 @@ Drupal.behaviors.mobit = {
     attach: function(context, settings) {
 
         $(context).find('.webform-client-form').once(function() {
-            $('.webform-client-form .form-item.webform-component-textfield:not(.webform-component--wf-solution-object-count):not(.webform-component--wf-solution-auditor-count):not(.webform-component--wf-solution-manager-count):not(.webform-component--wf-solution-analytic-count), .webform-client-form .form-item.webform-component-email').each(function() {
+            $('.webform-client-form .form-item.webform-component-textfield:not(.webform-component--wf-solution-another-purpose):not(.webform-component--wf-solution-object-count):not(.webform-component--wf-solution-auditor-count):not(.webform-component--wf-solution-manager-count):not(.webform-component--wf-solution-analytic-count), .webform-client-form .form-item.webform-component-email').each(function() {
                 formLabelText = $(this).find('label').hide().text();
                 $(this).find('input').attr('placeholder', formLabelText.replace(/\*/g, ' '));
             });

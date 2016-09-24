@@ -109,15 +109,40 @@ form input[type="week"] {
     width: 100%;
 }
 
-input[type=checkbox],
-input[type=radio] {
-    margin-top: 8px;
-}
-
 .checkbox,
 .radio {
     margin: 0;
+
+    input[type=checkbox],
+    input[type=radio] {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.5em;
+        margin-top: 0;
+    }
 }
+
+// .checkbox {
+//     input[type=checkbox] {
+//         // display: none;
+//         &:before {
+//             content: '';
+//             display: inline-block;
+//             width: 20px;
+//             height: 19px;
+//             background: url('/sites/all/themes/consilium/images/checkbox_unchecked.png') no-repeat left center;
+//             vertical-align: middle;
+//         }
+//
+//         &:checked {
+//             &:before {
+//                 background: url('/sites/all/themes/consilium/images/checkbox_checked.png') no-repeat left center;
+//             }
+//         }
+//     }
+//     padding-left: 0;
+// }
 
 label {
     font-family: calibri, Calibri1;

@@ -2392,11 +2392,15 @@ form input[type="color"], form input[type="date"], form input[type="datetime"], 
   background: #fff;
   width: 100%;
 }
-input[type=checkbox], input[type=radio] {
-  margin-top: 8px;
-}
 .checkbox, .radio {
   margin: 0;
+}
+.checkbox input[type=checkbox], .radio input[type=checkbox], .checkbox input[type=radio], .radio input[type=radio] {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  margin-top: 0;
 }
 label {
   font-family: calibri, Calibri1;
@@ -2710,6 +2714,7 @@ body {
 }
 #section-feature .mobit_subject__wrap {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 #section-feature .mobit_subject__item {
   border-radius: 50%;
@@ -2735,6 +2740,11 @@ body {
 }
 #section-feature .mobit_subject__item--active a, #section-feature .mobit_subject__item--attached:hover a {
   text-decoration: none;
+  color: #050505;
+  cursor: pointer;
+}
+#section-feature .mobit_subject__item--active img, #section-feature .mobit_subject__item--attached:hover img {
+  cursor: pointer;
 }
 #section-feature .mobit_subject__img {
   width: 118px;
@@ -2800,6 +2810,10 @@ body {
 }
 .ctrl_proccess__img {
   position: relative;
+}
+.ctrl_proccess__img img {
+  border: 2px solid #13ce8f;
+  border-radius: 5px;
 }
 .ctrl_proccess_step-order {
   background: #13ce8f;
@@ -2978,7 +2992,7 @@ body {
   font-size: 2em;
   max-width: 270px;
   text-align: center;
-  margin: 15% auto 1em auto;
+  margin: 15% auto 1em;
 }
 #webform-node-97 .form-actions {
   text-align: center;
@@ -3021,14 +3035,23 @@ body {
 #webform-node-97 .links {
   display: none;
 }
-.webform-component--wf-solution-object-auditor {
+.webform-component--wf-solution-auditor-count {
   display: block;
+}
+.webform-component--wf-solution-auditor-count input[type="text"] {
+  max-width: 100px;
 }
 .webform-component--wf-solution-object-count {
   display: block;
 }
+.webform-component--wf-solution-object-count input[type="text"] {
+  max-width: 100px;
+}
 .webform-component--wf-solution-manager-count {
   display: block;
+}
+.webform-component--wf-solution-manager-count input[type="text"] {
+  max-width: 100px;
 }
 .webform-component--wf-solution-analytic-count {
   display: block;
@@ -3036,6 +3059,12 @@ body {
 label[for='edit-submitted-wf-solution-purpose'] {
   font-size: 1.222em;
   color: #050505;
+}
+.webform-component--wf-solution-purpose {
+  margin-top: 2em;
+}
+.webform-component--wf-solution-another-purpose label {
+  display: none;
 }
 #section-footer a {
   color: #fff;
