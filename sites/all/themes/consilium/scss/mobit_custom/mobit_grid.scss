@@ -133,7 +133,7 @@
 
 @media (min-width: 768px){
   #block-block-75{
-    display: none;
+    // display: none;
   }
 
   #block-block-75--2{
@@ -154,7 +154,7 @@
         padding-top: 24px;
     }
 
-    #block-block-63 {
+    #block-block-63, #block-block-77,#block-block-78,#block-block-79, #block-block-80, #block-block-81 {
         h4 {
             font-size: 1.1em;
         }
@@ -169,9 +169,13 @@
         bottom: -14px;
     }
 
-    .per-quote__wrap {
-        margin-bottom: 100px;
-    }
+      .per-quote__wrap {
+          margin-bottom: 100px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+      }
+
 
     #block-block-68 .content {
         text-align: center;
@@ -199,9 +203,11 @@
       margin-top: 2em;
       text-align: left;
     }
-    #block-views-view-middle-slider-block-1 .bx-pager{
-      text-align: left;
-      padding: 0;
+    #block-views-view-middle-slider-block-1, #block-views-view-middle-slider-block-3{
+      .bx-pager{
+        text-align: left;
+        padding: 0;
+      }
     }
     .region-user-third{
       padding-left: 15px;
@@ -209,11 +215,11 @@
 
     #block-block-75{
       display: block;
-      margin-bottom: 30px;
+      margin-bottom: 0;
     }
 
     .region-user-third{
-     margin-top: 0;
+     margin-top: 30px;
     }
     #block-block-75--2{
       display: none;
@@ -256,7 +262,7 @@
 @media (min-width: 561px) {
     #block-md-slider-11,
     #block-md-slider-8,
-    #block-md-slider-9 {
+    #block-md-slider-9, #block-md-slider-35, #block-md-slider-36,#block-md-slider-38, #block-md-slider-39,#block-md-slider-21 {
         display: none;
     }
 
@@ -290,12 +296,12 @@
         }
     }
 
-    #block-md-slider-1 {
+    #block-md-slider-1,#block-md-slider-28, #block-md-slider-30,#block-md-slider-32, #block-md-slider-33,#block-md-slider-34 {
         display: none;
 
     }
 
-    #block-md-slider-8 {
+    #block-md-slider-8, #block-md-slider-35, #block-md-slider-36,#block-md-slider-38, #block-md-slider-39,#block-md-slider-21 {
         display: block;
         margin-top: 0;
     }
@@ -396,8 +402,12 @@
         display: none;
     }
 
-    #block-block-73 .block-title {
+    #block-block-73, #block-block-94,#block-block-95,
+    #block-block-96, #block-block-97,#block-block-98,
+    #block-block-99{
+    .block-title {
         margin-bottom: 1em;
+      }
     }
 }
 @media (max-width: 360px) {

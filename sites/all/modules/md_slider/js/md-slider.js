@@ -592,9 +592,9 @@
                 $('a:eq(' + oIndex + ')', slideThumb).removeClass('md-current');
 
                 /*=====  mobit hardcode / integration with custom paginator block======*/
-                if((self.selector == '#md-slider-1-block' && $('#md-slider-1-block').parents('.block-md-slider').css('display') != 'none') || (self.selector == '#md-slider-8-block' && $('#md-slider-8-block').parents('.block-md-slider').css('display') != 'none')){
-                  $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');
-                }
+                // if((self.selector == '#md-slider-1-block' && $('#md-slider-1-block').parents('.block-md-slider').css('display') != 'none') || (self.selector == '#md-slider-8-block' && $('#md-slider-8-block').parents('.block-md-slider').css('display') != 'none')){
+                //   $('.mobit_subject__wrap').eq(oIndex).find('.mobit_subject__item').removeClass('mobit_subject__item--active');
+                // }
                 /*=====  End mobit hardcode  ======*/
 
                 removeTheCaptions(slideItems[oIndex]);
@@ -655,9 +655,9 @@
                 if (buttons)
                     $('div.md-bullet:eq(' + activeIndex + ')', buttons).addClass('md-current');
                     /*=====  mobit hardcode ======*/
-                    if((self.selector == '#md-slider-1-block' && $('#md-slider-1-block').parents('.block-md-slider').css('display') != 'none') || (self.selector == '#md-slider-8-block' && $('#md-slider-8-block').parents('.block-md-slider').css('display') != 'none')){
-                      $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
-                    }
+                    // if((self.selector == '#md-slider-1-block' && $('#md-slider-1-block').parents('.block-md-slider').css('display') != 'none') || (self.selector == '#md-slider-8-block' && $('#md-slider-8-block').parents('.block-md-slider').css('display') != 'none')){
+                    //   $('.mobit_subject__wrap').eq(activeIndex).find('.mobit_subject__item').addClass('mobit_subject__item--active');
+                    // }
                     /*=====  end of mobit hardcode ======*/
                 if (slideThumb)
                     $('a:eq(' + activeIndex + ')', slideThumb).addClass('md-current');
