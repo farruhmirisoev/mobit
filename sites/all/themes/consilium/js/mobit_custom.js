@@ -25,9 +25,9 @@ jQuery(document).ready(function($) {
     }
 
 
-
+    // flip the columns
     $('.region-user-third').addClass('col-lg-push-7 col-md-push-7 col-sm-push-6');
-    $('.region-news1-second').addClass('col-lg-pull-5 col-md-pull-5 col-sm-pull-6'); 
+    $('.region-news1-second').addClass('col-lg-pull-5 col-md-pull-5 col-sm-pull-6');
 
 
 
