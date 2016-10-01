@@ -2,7 +2,7 @@
 /**
  * Custom Galeria Template settings
  */
- 
+
 /**
  * page alter
  */
@@ -36,12 +36,11 @@ function consilium_breadcrumb($variables) {
 function consilium_form_alter(&$form, &$form_state, $form_id){
 	switch ($form_id) {
 		case 'webform_client_form_89':
-			
+
 			break;
-		
+
 		default:
 			# code...
 			break;
 	}
 }
-

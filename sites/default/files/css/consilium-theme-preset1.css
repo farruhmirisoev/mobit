@@ -2453,6 +2453,9 @@ body {
   clear: left;
   float: left;
 }
+.node-type-main-slider-page #section-pagetitle {
+  display: none;
+}
 #section-header .site-logo a {
   line-height: 80px;
 }
