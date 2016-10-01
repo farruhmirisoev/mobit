@@ -857,14 +857,14 @@ label[for='edit-submitted-wf-solution-purpose'] {
 }
 
 #block-views-view-middle-slider-block-1, #block-views-view-middle-slider-block-3 {
-
+  position: relative;
     @media (min-width:993px) {
         margin-left: -20%;
         margin-right: -20%;
 
         .bx-pager {
-            // right: -39%;
-            right: -68%;
+            right: -39%;
+            // right: -68%; 
         }
     }
     @media (max-width:992px) {
