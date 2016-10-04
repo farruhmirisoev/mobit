@@ -389,7 +389,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 .view-testimonial .bx-wrapper .views-field-body {
   padding-bottom: 15px;
-  background: url(http://mobit.t/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
+  background: url(http://mobit.websparta.ru/sites/all/themes/consilium/images/arrow_testinomial.png) no-repeat bottom center;
 }
 .view-testimonial .bx-wrapper .views-field-body .field-content {
   background: rgba(238, 238, 238, 0.8);
@@ -1225,64 +1225,64 @@ ul.pagination li.active a:hover, ul.pagination li.active a:focus {
   font-family: NovecentowideUltraLightBold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
 }
 @font-face {
   font-family: NovecentowideNormalRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideLightRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Light-webfont.svg#NovecentowideLightRegular') format('svg');
 }
 @font-face {
   font-family: NovecentowideBookRegular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 @font-face {
   font-family: open_sansbold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
 }
 @font-face {
   font-family: open_sanslight;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
 }
 @font-face {
   font-family: open_sanssemibold;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/open-sans.semibold-webfont.svg#open_sanssemibold') format('svg');
 }
 @font-face {
   font-family: open_sansregular;
   font-weight: normal;
   font-style: normal;
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
-  src: url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.t/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot');
+  src: url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.woff') format('woff'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://mobit.websparta.ru/sites/all/themes/consilium/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 .center {
   text-align: center;
@@ -1589,13 +1589,13 @@ label {
   background: none !important;
 }
 .header-overlay .sticky-wrapper #section-header > .container {
-  background: url(http://mobit.t/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
+  background: url(http://mobit.websparta.ru/sites/all/themes/consilium/images/bg-menu-over.png) repeat-x left bottom;
 }
 #section-banner {
   clear: both;
 }
 .md-arrow-left {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
+  background: #fff url(http://mobit.websparta.ru/sites/all/themes/consilium/images/leftarrow.png) center center no-repeat;
   left: 0 !important;
   width: 60px;
   height: 60px;
@@ -1609,7 +1609,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 .md-arrow-right {
-  background: #fff url(http://mobit.t/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
+  background: #fff url(http://mobit.websparta.ru/sites/all/themes/consilium/images/rightarrow.png) center center no-repeat;
   right: 0 !important;
   width: 60px;
   height: 60px;
@@ -2291,6 +2291,12 @@ label {
     width: 80px;
     font-size: 20px;
   }
+}
+@font-face {
+  font-family: 'Calibri1';
+  src: url('/sites/all/themes/consilium/fonts/Calibri.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/consilium/fonts/Calibri.woff') format('woff'), url('/sites/all/themes/consilium/fonts/Calibri.ttf') format('truetype'), url('/sites/all/themes/consilium/fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #050505;
@@ -3208,4 +3214,385 @@ label[for='edit-submitted-wf-solution-purpose'] {
 }
 .ms2_text_list li span {
   color: #050505;
+}
+@media (max-width: 1336px) {
+  .container {
+    width: 960px;
+  }
+  body {
+    font-size: 14px;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu li a {
+    font-size: 1em;
+  }
+  .mobit_btn {
+    font-size: 1em;
+  }
+  #section-header #block-block-60 {
+    padding-top: 37px;
+  }
+  #section-header #block-block-61 {
+    padding-top: 36px;
+  }
+}
+@media (max-width: 992px) {
+  #section-header .region-logo {
+    width: 30%;
+  }
+  #section-header .region-logo a {
+    line-height: 60px;
+  }
+  #section-header .region-logo a img {
+    max-width: 100%;
+  }
+  #section-header .region-news3-second {
+    display: block;
+    float: right;
+  }
+  #section-header .region-menu {
+    width: 100%;
+  }
+  #section-header .region-news4-second {
+    width: 100%;
+    display: block;
+    background: #13ce8f;
+  }
+  #section-header #block-block-60 {
+    padding-top: 23px;
+  }
+  #section-header #block-block-61 {
+    padding-top: 22px;
+  }
+  #section-header #block-block-62 {
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  #section-header #block-block-62 .content {
+    text-align: right;
+  }
+  #section-header #block-block-62 .mobit_btn {
+    width: auto;
+    display: inline-block;
+    font-size: 1.111em;
+    padding: 0.5em 1.8em;
+    background-color: #086ec0;
+    color: #fff !important;
+    border-radius: 2em;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+  }
+  #section-header #block-block-62 .mobit_btn:hover {
+    background: #06528f !important;
+  }
+  #section-header #block-block-62 .mobit_btn:active {
+    background: #075da3;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  #section-header .region-news2-second {
+    width: 45%;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 {
+    padding-top: 0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 a.superhero-mobile-menu-toggle {
+    right: auto;
+    left: 3px;
+    top: 10px;
+    z-index: 9999;
+    font-size: 33px;
+    border: none;
+    background: none;
+    display: block !important;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown {
+    top: 58px;
+    background: #086ec0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown li {
+    background: #086ec0;
+  }
+  #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-dropdown li a {
+    color: #fff !important;
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
+  #section-header #block-block-62 .mobit_btn {
+    padding: 0.5em 1.8em;
+  }
+}
+@media (max-width: 960px) {
+  #block-block-70, #block-block-71 {
+    text-align: center;
+  }
+  #block-webform-client-block-89 .form-actions, #block-webform-client-block-89 .form-item {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  #block-block-75--2 {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .region-news3-second {
+    display: none;
+  }
+  .region-news4-second {
+    display: none;
+  }
+  #section-header #block-block-60 {
+    padding-top: 24px;
+  }
+  #block-block-63 h4, #block-block-77 h4, #block-block-78 h4, #block-block-79 h4, #block-block-80 h4, #block-block-81 h4 {
+    font-size: 1.1em;
+  }
+  .ctrl_proccess_step-order {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 2em;
+    right: 13px;
+    bottom: -14px;
+  }
+  .per-quote__wrap {
+    margin-bottom: 100px;
+  }
+  .per-quote__wrap:last-child {
+    margin-bottom: 0;
+  }
+  #block-block-68 .content {
+    text-align: center;
+  }
+  .region-bottom-first, .region-bottom-second {
+    text-align: center;
+  }
+  .md-slide-bullet-1 .md-bullets, .md-slide-bullet-3 .md-bullets {
+    bottom: -35px;
+  }
+  .md-slide-bullet-1 .md-bullets .md-bullet, .md-slide-bullet-3 .md-bullets .md-bullet {
+    width: 15px;
+    height: 15px;
+  }
+  .view-view-middle-slider .bx-pager {
+    position: static;
+    margin-top: 2em;
+    text-align: left;
+  }
+  #block-views-view-middle-slider-block-1 .bx-pager, #block-views-view-middle-slider-block-3 .bx-pager {
+    text-align: left;
+    padding: 0;
+  }
+  .region-user-third {
+    padding-left: 15px;
+  }
+  #block-block-75 {
+    display: block;
+    margin-bottom: 0;
+  }
+  .region-user-third {
+    margin-top: 30px;
+  }
+  #block-block-75--2 {
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  .region-bottom-first, .region-bottom-second {
+    width: 100%;
+    float: none;
+  }
+  #section-bottom .region-bottom-third {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .region-news2-second {
+    display: none;
+  }
+  .region-news3-second {
+    width: 50%;
+  }
+  #section-header #block-block-61 .content {
+    text-align: right;
+    font-weight: bold;
+  }
+  #section-header .region-logo {
+    width: 50%;
+  }
+}
+@media (min-width: 561px) {
+  #block-md-slider-11, #block-md-slider-8, #block-md-slider-9, #block-md-slider-35, #block-md-slider-36, #block-md-slider-38, #block-md-slider-39, #block-md-slider-21 {
+    display: none;
+  }
+  .ctrl_proccess__step--4-mobile {
+    display: none;
+  }
+  .ctrl_proccess__step--3 {
+    display: block;
+  }
+}
+@media (max-width: 560px) {
+  #section-header .region-news2-second {
+    display: none;
+  }
+  #block-md-slider-7 {
+    margin-left: -75px;
+  }
+  #block-block-70 h1 {
+    font-size: 2em;
+  }
+  #block-md-slider-1, #block-md-slider-28, #block-md-slider-30, #block-md-slider-32, #block-md-slider-33, #block-md-slider-34 {
+    display: none;
+  }
+  #block-md-slider-8, #block-md-slider-35, #block-md-slider-36, #block-md-slider-38, #block-md-slider-39, #block-md-slider-21 {
+    display: block;
+    margin-top: 0;
+  }
+  #block-md-slider-11, #block-md-slider-9 {
+    display: block;
+  }
+  #block-md-slider-9 {
+    margin-bottom: 8em;
+  }
+  #block-md-slider-5, #block-md-slider-7 {
+    display: none;
+  }
+  #webform-node-89, #webform-node-90 {
+    padding-top: 20%;
+  }
+  .ctrl_proccess {
+    padding-bottom: 20%;
+  }
+  .ctrl_proccess__step {
+    width: 100%;
+    position: relative;
+    padding-top: 108px;
+  }
+  .ctrl_proccess__step--1 {
+    padding-right: 15px;
+  }
+  .ctrl_proccess__step--2, .ctrl_proccess__step--4 {
+    padding-left: 15px;
+  }
+  .ctrl_proccess__step--1 {
+    padding-top: 62px;
+  }
+  .ctrl_proccess__step--1 .ctrl_proccess__title {
+    background: none;
+    height: auto;
+    padding: 20px;
+  }
+  .ctrl_proccess__step--4-mobile {
+    display: block;
+  }
+  .ctrl_proccess__step--3 {
+    display: none;
+  }
+  .ctrl_proccess__img img {
+    display: block;
+    width: 100%;
+  }
+  .ctrl_proccess__title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 108px;
+    left: 0;
+    background: url("/sites/all/themes/consilium/images/arrowsupdown_mobile.png") no-repeat center 0;
+    text-align: center;
+    background-size: cover;
+    padding-top: 45px;
+  }
+  .ctrl_proccess__title span {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+  }
+  .ctrl_proccess_step-order {
+    z-index: 3;
+    right: 43%;
+    width: 60px;
+    height: 60px;
+    line-height: 54px;
+    bottom: -32px;
+    border: 3px solid #fff;
+  }
+  .ctrl_proccess__step--arrow-left, .ctrl_proccess__step--arrow-right {
+    display: none;
+  }
+  #block-block-73 .block-title, #block-block-94 .block-title, #block-block-95 .block-title, #block-block-96 .block-title, #block-block-97 .block-title, #block-block-98 .block-title, #block-block-99 .block-title {
+    margin-bottom: 1em;
+  }
+}
+@media (max-width: 360px) {
+  #section-header .region-logo {
+    width: 50%;
+  }
+  #section-header .region-news3-second {
+    display: block;
+  }
+  #section-header a.superhero-mobile-menu-toggle {
+    right: auto;
+    left: 3px;
+    top: 20px;
+    z-index: 2;
+    font-size: 33px;
+    border: none;
+    background: none;
+  }
+  #section-header .superhero-dropdown {
+    bottom: 0;
+    background: #086ec0;
+  }
+  #section-header .superhero-dropdown li {
+    background: #086ec0;
+  }
+  #section-header .superhero-dropdown li a {
+    color: #fff !important;
+  }
+  #section-header .region-news4-second {
+    display: block;
+    background: #13ce8f;
+  }
+  #section-header #block-block-62 {
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  #section-header #block-block-62 .content {
+    text-align: right;
+  }
+  #section-header #block-block-62 .mobit_btn {
+    width: auto;
+    display: inline-block;
+    font-size: 1.111em;
+    padding: 0.5em 1.8em;
+    background-color: #086ec0;
+    color: #fff !important;
+    border-radius: 2em;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+  }
+  #section-header #block-block-62 .mobit_btn:hover {
+    background: #06528f !important;
+  }
+  #section-header #block-block-62 .mobit_btn:active {
+    background: #075da3;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+@media (max-width: 360px) and (max-width: 992px) {
+  #section-header #block-block-62 .mobit_btn {
+    padding: 0.5em 1.8em;
+  }
 }
