@@ -2469,6 +2469,22 @@ body {
   -o-transition: margin-bottom 0.7s ease 0s;
   transition: margin-bottom 0.7s ease 0s;
 }
+#section-header #block-menu-menu-mobit-main-menu .superhero-mobile-menu-toggle.fake, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .superhero-mobile-menu-toggle.fake {
+  display: none !important;
+  opacity: 0;
+}
+#section-header #block-menu-menu-mobit-main-menu .main-menu-toggle-fake, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .main-menu-toggle-fake {
+  position: absolute;
+  right: auto;
+  left: 3px;
+  top: 10px;
+  z-index: 99999;
+  font-size: 33px;
+  border: none;
+  color: #fff;
+  padding: 4px 14px;
+  background: none;
+}
 #section-header #block-menu-menu-mobit-main-menu .menu, #section-header #block-superhero-dropdown-superhero-dropdown-block-2 .menu {
   padding: 0;
 }

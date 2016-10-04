@@ -24,6 +24,27 @@ body {
     #block-menu-menu-mobit-main-menu,
     #block-superhero-dropdown-superhero-dropdown-block-2 {
         padding-top: 10px;
+
+        .superhero-mobile-menu-toggle{
+          &.fake{
+            display: none !important;
+            opacity: 0;
+          }
+        }
+
+        .main-menu-toggle-fake{
+          position: absolute;
+          right: auto;
+          left: 3px;
+          top: 10px;
+          z-index: 99999;
+          font-size: 33px;
+          border: none;
+          color:#fff;
+          padding: 4px 14px;
+          background: none;          
+        }
+
         @include transition(margin-bottom 0.7s ease 0s);
 
         .menu {
@@ -864,7 +885,7 @@ label[for='edit-submitted-wf-solution-purpose'] {
 
         .bx-pager {
             right: -39%;
-            // right: -68%; 
+            // right: -68%;
         }
     }
     @media (max-width:992px) {
