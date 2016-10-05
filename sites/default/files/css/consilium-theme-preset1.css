@@ -3215,6 +3215,17 @@ label[for='edit-submitted-wf-solution-purpose'] {
 .ms2_text_list li span {
   color: #050505;
 }
+.region-banner .md-mainimg:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/sites/all/themes/consilium/images/mds_shadow.png) bottom repeat-x;
+  position: relative;
+}
+#block-md-slider-8 {
+  margin-top: 300px !important;
+}
 @media (max-width: 1336px) {
   .container {
     width: 960px;
@@ -3594,5 +3605,49 @@ label[for='edit-submitted-wf-solution-purpose'] {
 @media (max-width: 360px) and (max-width: 992px) {
   #section-header #block-block-62 .mobit_btn {
     padding: 0.5em 1.8em;
+  }
+}
+@media (min-width: 1921px) {
+  .md-layer-28-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-34-0-0 {
+    width: 37.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-33-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-32-0-0 {
+    width: 36.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-30-0-0 {
+    width: 36.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-1-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
   }
 }
