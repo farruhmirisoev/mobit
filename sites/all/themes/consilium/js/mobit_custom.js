@@ -265,7 +265,7 @@ jQuery(document).ready(function($) {
         });
     }
 
-   
+
 
 });
 
@@ -318,7 +318,7 @@ function onScroll(event) {
     // }
 
 }
-
+ 
 function scrollToMenu(dest) {
     $('html, body').animate({
         scrollTop: $(dest).offset().top - stickyHeaderHeight(),
