@@ -463,3 +463,50 @@
         }
     }
 }
+
+@media (min-width:1921px){ 
+  // main slider >1920pxW layer issues fix
+  .md-layer-28-0-0,  {
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+   .md-layer-34-0-0 {
+      width: 37.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-33-0-0 {
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-32-0-0 {
+      width: 36.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-30-0-0 {
+      width: 36.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-1-0-0{
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+
+}
