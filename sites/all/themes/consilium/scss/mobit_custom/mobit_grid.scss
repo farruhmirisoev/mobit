@@ -1,3 +1,50 @@
+@media (min-width:1921px){
+  // main slider >1920pxW layer issues fix
+  .md-layer-28-0-0,  {
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+   .md-layer-34-0-0 {
+      width: 37.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-33-0-0 {
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-32-0-0 {
+      width: 36.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-30-0-0 {
+      width: 36.3125% !important;
+      left: 14.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+  .md-layer-1-0-0{
+      width: 36.3125% !important;
+      left: 12.5% !important;
+      overflow: hidden !important;
+      display: block !important;
+      border-radius: 10px !important;
+  }
+
+}
+
 @media (max-width: 1336px) {
     .container {
         width: 960px;
@@ -224,6 +271,42 @@
     #block-block-75--2{
       display: none;
     }
+
+
+    #block-views-view-middle-slider-block-4{
+      .views-row{
+        position: relative;
+        padding-bottom: 70px;
+      }
+      .bx-pager{
+
+      }
+    }
+
+    .md3__order {
+      background: #13ce8f;
+      font-size: 3em;
+      color: #fff;
+      border-radius: 25px;
+      width: 50px;
+      height: 50px;
+      margin-top: 0px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .md3__left{
+      position: absolute;
+      bottom: 5px;
+      text-align: right;
+      div{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+      }
+    }
+
+
+
 
 }
 @media (max-width: 660px) {
@@ -462,51 +545,4 @@
             }
         }
     }
-}
-
-@media (min-width:1921px){ 
-  // main slider >1920pxW layer issues fix
-  .md-layer-28-0-0,  {
-      width: 36.3125% !important;
-      left: 12.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-   .md-layer-34-0-0 {
-      width: 37.3125% !important;
-      left: 14.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-  .md-layer-33-0-0 {
-      width: 36.3125% !important;
-      left: 12.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-  .md-layer-32-0-0 {
-      width: 36.3125% !important;
-      left: 14.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-  .md-layer-30-0-0 {
-      width: 36.3125% !important;
-      left: 14.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-  .md-layer-1-0-0{
-      width: 36.3125% !important;
-      left: 12.5% !important;
-      overflow: hidden !important;
-      display: block !important;
-      border-radius: 10px !important;
-  }
-
 }

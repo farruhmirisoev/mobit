@@ -2796,6 +2796,7 @@ body {
   margin: 20px 0;
 }
 #section-clients {
+  padding-top: 60px;
   background: none !important;
 }
 .ctrl_proccess__step img {
@@ -3215,6 +3216,37 @@ label[for='edit-submitted-wf-solution-purpose'] {
 .ms2_text_list li span {
   color: #050505;
 }
+#block-views-view-middle-slider-block-4 {
+  margin-bottom: 60px;
+}
+#block-views-view-middle-slider-block-4 .block-title {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#block-views-view-middle-slider-block-4 .bx-pager {
+  bottom: 0;
+}
+.md3__title {
+  font-size: 1.2em;
+}
+.md3__order {
+  background: #13ce8f;
+  font-size: 7.056em;
+  color: #fff;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin-top: 20%;
+  line-height: 150px;
+  text-align: center;
+}
+.md3_right img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid #13ce8f;
+  border-radius: 4px;
+}
 .region-banner .md-mainimg:after {
   content: "";
   display: block;
@@ -3225,6 +3257,50 @@ label[for='edit-submitted-wf-solution-purpose'] {
 }
 #block-md-slider-8 {
   margin-top: 300px !important;
+}
+@media (min-width: 1921px) {
+  .md-layer-28-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-34-0-0 {
+    width: 37.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-33-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-32-0-0 {
+    width: 36.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-30-0-0 {
+    width: 36.3125% !important;
+    left: 14.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
+  .md-layer-1-0-0 {
+    width: 36.3125% !important;
+    left: 12.5% !important;
+    overflow: hidden !important;
+    display: block !important;
+    border-radius: 10px !important;
+  }
 }
 @media (max-width: 1336px) {
   .container {
@@ -3412,6 +3488,31 @@ label[for='edit-submitted-wf-solution-purpose'] {
   }
   #block-block-75--2 {
     display: none;
+  }
+  #block-views-view-middle-slider-block-4 .views-row {
+    position: relative;
+    padding-bottom: 70px;
+  }
+  .md3__order {
+    background: #13ce8f;
+    font-size: 3em;
+    color: #fff;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .md3__left {
+    position: absolute;
+    bottom: 5px;
+    text-align: right;
+  }
+  .md3__left div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
   }
 }
 @media (max-width: 660px) {
@@ -3605,49 +3706,5 @@ label[for='edit-submitted-wf-solution-purpose'] {
 @media (max-width: 360px) and (max-width: 992px) {
   #section-header #block-block-62 .mobit_btn {
     padding: 0.5em 1.8em;
-  }
-}
-@media (min-width: 1921px) {
-  .md-layer-28-0-0 {
-    width: 36.3125% !important;
-    left: 12.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
-  }
-  .md-layer-34-0-0 {
-    width: 37.3125% !important;
-    left: 14.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
-  }
-  .md-layer-33-0-0 {
-    width: 36.3125% !important;
-    left: 12.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
-  }
-  .md-layer-32-0-0 {
-    width: 36.3125% !important;
-    left: 14.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
-  }
-  .md-layer-30-0-0 {
-    width: 36.3125% !important;
-    left: 14.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
-  }
-  .md-layer-1-0-0 {
-    width: 36.3125% !important;
-    left: 12.5% !important;
-    overflow: hidden !important;
-    display: block !important;
-    border-radius: 10px !important;
   }
 }
