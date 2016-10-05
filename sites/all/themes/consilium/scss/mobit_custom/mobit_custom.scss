@@ -42,7 +42,7 @@ body {
           border: none;
           color:#fff;
           padding: 4px 14px;
-          background: none;          
+          background: none;
         }
 
         @include transition(margin-bottom 0.7s ease 0s);
@@ -933,4 +933,20 @@ label[for='edit-submitted-wf-solution-purpose'] {
             color: $base_black;
         }
     }
+}
+
+
+// main slider custom shadow, hardcode
+
+.region-banner .md-mainimg:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/sites/all/themes/consilium/images/mds_shadow.png)  bottom repeat-x;
+  position: relative;
+}
+
+#block-md-slider-8{
+  margin-top: 300px !important;
 }
