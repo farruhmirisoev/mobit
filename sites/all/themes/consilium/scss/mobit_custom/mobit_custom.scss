@@ -939,6 +939,7 @@ label[for='edit-submitted-wf-solution-purpose'] {
 
 #block-views-view-middle-slider-block-4{
   margin-bottom: 60px;
+  position: relative;
   .block-title{
     margin-left:15px;
     margin-right: 15px;
@@ -980,8 +981,4 @@ label[for='edit-submitted-wf-solution-purpose'] {
   height: 100%;
   background: url(/sites/all/themes/consilium/images/mds_shadow.png)  bottom repeat-x;
   position: relative;
-}
-
-#block-md-slider-8{
-  margin-top: 300px !important;
 }

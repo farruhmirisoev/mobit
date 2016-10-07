@@ -123,26 +123,6 @@ form input[type="week"] {
     }
 }
 
-// .checkbox {
-//     input[type=checkbox] {
-//         // display: none;
-//         &:before {
-//             content: '';
-//             display: inline-block;
-//             width: 20px;
-//             height: 19px;
-//             background: url('/sites/all/themes/consilium/images/checkbox_unchecked.png') no-repeat left center;
-//             vertical-align: middle;
-//         }
-//
-//         &:checked {
-//             &:before {
-//                 background: url('/sites/all/themes/consilium/images/checkbox_checked.png') no-repeat left center;
-//             }
-//         }
-//     }
-//     padding-left: 0;
-// }
 
 label {
     font-family: calibri, Calibri1;
@@ -168,4 +148,9 @@ button {
 .webform-title {
     color: $order_btn;
     font-weight: bold;
+}
+
+
+.block-md-slider{
+  margin-top:0;
 }

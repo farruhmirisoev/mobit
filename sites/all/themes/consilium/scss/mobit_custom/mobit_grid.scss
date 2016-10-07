@@ -274,12 +274,28 @@
 
 
     #block-views-view-middle-slider-block-4{
+
       .views-row{
         position: relative;
         padding-bottom: 70px;
       }
       .bx-pager{
 
+      }
+    }
+
+    .md3__left{
+      position: absolute;
+      bottom: 5px;
+      text-align: right;
+      // display: block;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      div{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
       }
     }
 
@@ -293,16 +309,6 @@
       margin-top: 0px;
       line-height: 50px;
       text-align: center;
-    }
-    .md3__left{
-      position: absolute;
-      bottom: 5px;
-      text-align: right;
-      div{
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 15px;
-      }
     }
 
 
@@ -514,7 +520,7 @@
         }
 
         .superhero-dropdown {
-            bottom: 0;
+            // bottom: 0;
             background: $base_blue;
 
             li {
@@ -544,5 +550,27 @@
                 @include mobit_btn($base_blue);
             }
         }
+    }
+
+    .md3__left{
+      position: absolute;
+      bottom: 5px;
+      text-align: right;
+      // display: block;
+      div{
+        // display: inline-block;
+        // vertical-align: middle;
+        margin-left: 15px;
+      }
+    }
+
+    .md3__order {
+
+      font-size: 1.5em;
+      width: 30px;
+      height: 30px;
+      margin-top: 0px;
+      line-height: 30px;
+      text-align: center;
     }
 }
